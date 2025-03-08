@@ -11,6 +11,6 @@ How to use:
 - Put birds into correct subdecks
 
 Resources:
-- Clements: https://www.birds.cornell.edu/clementschecklist/introduction/updateindex/
-- IOC: https://www.worldbirdnames.org/new/ioc-lists/master-list-2/
+- eBird Taxonomy: https://www.birds.cornell.edu/clementschecklist/introduction/updateindex/
+- IOC Multiligual and comparison with Clements: https://www.worldbirdnames.org/new/ioc-lists/master-list-2/
 - Audio dataset: https://www.gbif.org/dataset/b1047888-ae52-4179-9dd5-5448ea342a24 (source archive AND GBIF annotated archive)
