@@ -1,6 +1,9 @@
 data/input/*
 data/output/*
 
+!data/input/Ultimate Birds - old version.csv
+!data/input/Mnemonics.txt
+
 # VS Code
 .vscode/
 
