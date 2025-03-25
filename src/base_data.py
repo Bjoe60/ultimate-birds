@@ -1,11 +1,11 @@
 import pandas as pd
-from file_paths import INPUT_FILES, OUTPUT_FILES
+from file_paths import INPUT_FILES, OUTPUT_FILES, IOC_COLUMN
 
 def match_ioc(df):
     """Primary matching using direct IOC translations"""
-    df_ioc = pd.read_excel(INPUT_FILES['ioc_translations'], usecols=['English', 'IOC14.2']).rename(columns={
+    df_ioc = pd.read_excel(INPUT_FILES['ioc_translations'], usecols=['English', IOC_COLUMN]).rename(columns={
         'English': 'English (IOC)',
-        'IOC14.2': 'Scientific (IOC)'
+        IOC_COLUMN: 'Scientific (IOC)'
     })
     
     # 1. First try direct scientific name match
@@ -40,9 +40,9 @@ def match_ioc(df):
 def map_clements_ioc(df):
     """
     Fallback mapping using Clements-IOC relationships
-    However, this file is outdated so a match on both common
-    and scientific names is used.
-    The file also contains typos for a few species.
+    However, this file might not be using latest version of Clements.
+    So both matches on common and scientific names are used.
+    The file also might contain typos for a few species.
     """
     df_clements_ioc = pd.read_excel(INPUT_FILES['clements_to_ioc']).rename(columns={
         'IOC common name': 'English (IOC)',

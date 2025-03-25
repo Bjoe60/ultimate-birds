@@ -1,5 +1,5 @@
 import pandas as pd
-from file_paths import INPUT_FILES, PROCESSED_FILES
+from file_paths import INPUT_FILES, PROCESSED_FILES, IOC_COLUMN
 from string import capwords
 
 LANGUAGES = ['Afrikaans', 'Albanian', 'Arabic', 'Armenian', 'Azerbaijani', 'Belarusian', 'Bengali', 'Bulgarian', 'Catalan', 'Chinese', 'Chinese (Traditional)', 'Croatian', 'Czech', 'Danish', 'Dutch', 'Estonian', 'Faroese', 'Finnish', 'French', 'Galician', 'Georgian', 'German', 'Greek', 'Hebrew', 'Hungarian', 'Icelandic', 'Indonesian', 'Italian', 'Japanese', 'Kazakh', 'Korean', 'Latvian', 'Lithuanian', 'Macedonian', 'Marathi', 'Malay', 'Maltese', 'Mongolian', 'Nepali', 'Norwegian', 'Persian', 'Polish', 'Portuguese', 'Romanian', 'Russian', 'Serbian', 'Slovak', 'Slovenian', 'Spanish', 'Swahili', 'Swedish', 'Tajik', 'Thai', 'Turkish', 'Ukrainian', 'Uzbek', 'Vietnamese']
@@ -9,7 +9,7 @@ def merge_excel_translations(df):
     Merge translation data from the IOC file.
     """
     df_excel = pd.read_excel(INPUT_FILES["ioc_translations"], dtype="str")
-    df = pd.merge(df, df_excel, left_on='Scientific (IOC)', right_on="IOC14.2", how="left")
+    df = pd.merge(df, df_excel, left_on='Scientific (IOC)', right_on=IOC_COLUMN, how="left")
     
     return df
 
@@ -44,7 +44,7 @@ def merge_csv_translations(df):
 def merge_translations(base_df):
     """
     Merge translation data from two sources:
-      1. Excel file (Multiling IOC 14.2_b.xlsx)
+      1. Excel file (Multiling IOC ??.?.xlsx)
       2. CSV file (Ultimate Birds - old version.csv)
     
     The DataFrame is reindexed to include scientific name and all language columns.

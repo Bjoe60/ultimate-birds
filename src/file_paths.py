@@ -1,13 +1,15 @@
 INPUT_FILES = {
     "ebird_taxonomy": "data/input/eBird_Taxonomy_v2024.csv",
-    "ioc_translations": "data/input/Multiling IOC 14.2_b.xlsx",
-    "clements_to_ioc": "data/input/IOC v14-2 v Clements 2023.xlsx",
+    "ioc_translations": "data/input/Multiling IOC 15.1.xlsx",
+    "clements_to_ioc": "data/input/IOC v15-1 v Clements 2024.xlsx",
     "mnemonics": "data/input/Mnemonics.txt",
     "old_version": "data/input/Ultimate Birds - old version.csv",
     "audio_files": "data/input/wildlife-sounds-birds-20250207.dwca/Multimedia.txt",
     "audio_data": "data/input/wildlife-sounds-birds-20250207.dwca/Occurrence.txt",
     "notes": "data/input/Ultimate Birds.txt",
 }
+
+IOC_COLUMN = "IOC_15.1"
 
 PROCESSED_FILES = {
     "avibase": "data/processed/avibase.csv",
