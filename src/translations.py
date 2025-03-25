@@ -40,12 +40,23 @@ def merge_csv_translations(df):
     
     return merged_df
 
+def overwrite_danish_translations(df):
+    """
+    Prefer Danish translations from Navnegruppen
+    """
+    df_danish = pd.read_excel(INPUT_FILES["danish_translations"], dtype="str", sheet_name="DOF-LDF fil", usecols=["Scientific Name", "Dansk Navn"])
+    df = pd.merge(df, df_danish, left_on="Scientific (IOC)", right_on="Scientific Name", how="left")
+    df["Danish"] = df.apply(
+        lambda row: row["Dansk Navn"] if pd.notna(row["Dansk Navn"]) else row["Danish"], axis=1
+    )
+    return df
 
 def merge_translations(base_df):
     """
-    Merge translation data from two sources:
+    Merge translation data from three sources:
       1. Excel file (Multiling IOC ??.?.xlsx)
       2. CSV file (Ultimate Birds - old version.csv)
+      3. Danish translations (IOC-DOF_-_NAVNE_P_ALVERDENS_FUGLE_-_20-12-2024.xlsx)
     
     The DataFrame is reindexed to include scientific name and all language columns.
     
@@ -61,6 +72,8 @@ def merge_translations(base_df):
 
     # Merge additional CSV translations.
     df_merged = merge_csv_translations(df_merged)
+
+    df_merged = overwrite_danish_translations(df_merged)
 
     # Titlelize translations if it the first letter is not capitalized.
     for col in LANGUAGES:
