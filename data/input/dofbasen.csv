@@ -1,0 +1,1139 @@
+Euring;Sortering;Artnavn;Latin;English;Status;Type
+01680;10;Knortegås;"Branta bernicla";"Brant Goose";A;art
+01681;20;"Knortegås, Mørkbuget (ssp. bernicla)";"Branta bernicla bernicla";"Brant Goose (ssp. bernicla)";A;underart
+01682;30;"Knortegås, Lysbuget (ssp. hrota)";"Branta bernicla hrota";"Brant Goose (ssp. hrota)";A;underart
+01683;40;"Knortegås, Sortbuget (ssp. nigricans)";"Branta bernicla nigricans";"Brant Goose (ssp. nigricans)";AS;underart
+01688;50;"Knortegås, Mørkbuget x Sortbuget (hybrid)";"Branta bernicla bernicla x B. b. nigricans";"Brant Goose (bernicla x nigricans)";H;hybrid
+01689;60;"Knortegås x Rødhalset Gås (hybrid)";"Branta bernicla x B. ruficollis";"Brant Goose x Red-breasted Goose";H;hybrid
+01690;70;"Rødhalset Gås";"Branta ruficollis";"Red-breasted Goose";AS;art
+01699;80;"Rajgås sp.";"Branta sp.";"Goose sp. (branta)";H;ubestemt
+01709;90;"Gås sp.";"Anser/Branta sp.";"Goose sp.";H;ubestemt
+01660;100;Canadagås;"Branta canadensis";"Canada Goose";C;art
+01664;110;"Canadagås x Bramgås (hybrid)";"Branta canadensis x B. leucopsis";"Canada Goose x Barnacle Goose";H;hybrid
+01669;120;"Canadagås x Grågås (hybrid)";"Branta canadensis x Anser anser";"Canada Goose x Greylag Goose";H;hybrid
+01670;130;Bramgås;"Branta leucopsis";"Barnacle Goose";A;art
+01677;140;"Bramgås x Dværgcanadagås (hybrid)";"Branta leucopsis x B. hutchinsii";"Barnacle Goose x Cackling Goose";H;hybrid
+01678;150;"Bramgås x Dværggås (hybrid)";"Branta leucopsis x Anser erythropus";"Barnacle Goose x Lesser White-fronted Goose";H;hybrid
+01679;160;"Bramgås x Rødhalset Gås (hybrid)";"Branta leucopsis x B. ruficollis";"Barnacle Goose x Red-breasted Goose";H;hybrid
+01665;170;Dværgcanadagås;"Branta hutchinsii";"Cackling Goose";E;art
+01620;180;"Indisk Gås";"Anser indicus";"Bar-headed Goose";C;art
+01625;190;"Indisk Gås X Grågås (hybrid)";"Anser indicus x A. anser";"Bar-headed Goose x Greylag Goose (hybrid)";H;hybrid
+01626;200;"Indisk Gås X Canadagås (hybrid)";"Anser indicus x Branta canadensis";"Bar-headed Goose x Canada Goose (hybrid)";H;hybrid
+01627;210;"Indisk Gås X Bramgås (hybrid)";"Anser indicus x Branta leucopsis";"Bar-headed Goose x Barnacle Goose (hybrid)";H;hybrid
+01659;220;"Grå Gås sp.";"Anser sp.";"Goose sp. (anser)";H;ubestemt
+01650;230;Kejsergås;"Anser canagicus";"Emperor Goose";E;art
+01645;240;"Dværgsnegås x Bramgås (hybrid)";"Anser rossii x Branta leucopsis";"Ross's Goose x Barnacle Goose";HU;hybrid
+01640;250;Dværgsnegås;"Anser rossii";"Ross's Goose";AU;art
+01630;260;Snegås;"Anser caerulescens";"Snow Goose";D;art
+01639;270;"Snegås x Bramgås (hybrid)";"Anser caerulescens x Branta leucopsis";"Snow Goose x Barnacle Goose";H;hybrid
+01610;280;Grågås;"Anser anser";"Greylag Goose";A;art
+01615;290;"Grågås x Blisgås (hybrid)";"Anser anser x A. albifrons";"Greylag Goose x Greater White-fronted Goose";H;hybrid
+01619;300;"Grågås x Bramgås (hybrid)";"Anser anser x Branta leucopsis";"Greylag Goose x Barnacle Goose";H;hybrid
+01560;310;Svanegås;"Anser cygnoides";"Swan Goose";E;art
+01569;320;"Svanegås x Grågås (hybrid)";"Anser cygnoides x A. anser";"Swan Goose x Greylag Goose";H;hybrid
+01570;330;Tajgasædgås/Tundrasædgås;"Anser fabalis/A. serrirostris";"Taiga Bean Goose/Tundra Bean Goose";H;ubestemt
+01571;340;Tajgasædgås;"Anser fabalis";"Taiga Bean Goose";A;art
+01580;350;"Kortnæbbet Gås";"Anser brachyrhynchus";"Pink-footed Goose";A;art
+01574;360;Tundrasædgås;"Anser serrirostris";"Tundra Bean Goose";A;art
+01590;370;Blisgås;"Anser albifrons";"Greater White-fronted Goose";A;art
+01592;380;"Blisgås, Grønlandsk (ssp. flavirostris)";"Anser albifrons flavirostris";"Greater White-fronted Goose (ssp. flavirostris)";AS;underart
+01591;390;"Blisgås (ssp. albifrons)";"Anser albifrons albifrons";"Greater White-fronted Goose (ssp. albifrons)";A;underart
+01594;400;"Blisgås x Bramgås (hybrid)";"Anser albifrons x Branta leucopsis";"Greater White-fronted Goose x Barnacle Goose";H;hybrid
+01595;410;"Blisgås x Rødhalset Gås (hybrid)";"Anser albifrons x Branta ruficollis";"Greater White-fronted Goose x Red-breasted Goose";H;hybrid
+01600;420;Dværggås;"Anser erythropus";"Lesser White-fronted Goose";AS;art
+01599;430;Blisgås/Dværggås;"Anser albifrons/A. erythropus";"Greater White-fronted Goose/Lesser White-fronted Goose";H;ubestemt
+01525;440;Sortsvane;"Cygnus atratus";"Black Swan";C;art
+01526;450;"Sorthalset Svane";"Cygnus melancoryphus";"Black-necked Swan";E;art
+01520;460;Knopsvane;"Cygnus olor";"Mute Swan";A;art
+01530;470;Pibesvane;"Cygnus columbianus";"Tundra Swan";A;art
+01540;480;Sangsvane;"Cygnus cygnus";"Whooper Swan";A;art
+01539;490;Pibesvane/Sangsvane;"Cygnus columbianus/C. cygnus";"Tundra Swan/Whooper Swan";H;ubestemt
+01559;500;"Svane sp.";"Cygnus sp.";"Swan sp.";H;ubestemt
+01700;510;Nilgås;"Alopochen aegyptiaca";"Egyptian Goose";C;art
+01695;520;Magellangås;"Chloephaga picta";"Upland Goose";E;art
+01730;530;Gravand;"Tadorna tadorna";"Common Shelduck";A;art
+01710;540;Rustand;"Tadorna ferruginea";"Ruddy Shelduck";A;art
+01714;550;"Rustand x Gravand (hybrid)";"Tadorna ferruginea x T. tadorna";"Ruddy Shelduck x Common Shelduck";H;hybrid
+01750;560;Moskusand;"Cairina moschata";"Muscovy Duck";E;art
+01770;570;Brudeand;"Aix sponsa";"Wood Duck";E;art
+01780;580;Mandarinand;"Aix galericulata";"Mandarin Duck";C;art
+01830;590;"Sibirisk Krikand";"Sibirionetta formosa";"Baikal Teal";AU;art
+01910;600;Atlingand;"Spatula querquedula";Garganey;A;art
+01930;610;Kaneland;"Spatula cyanoptera";"Cinnamon Teal";E;art
+01920;620;"Blåvinget And";"Spatula discors";"Blue-winged Teal";AU;art
+01940;630;Skeand;"Spatula clypeata";"Northern Shoveler";A;art
+01946;640;"Skeand x Blåvinget And (hybrid)";"Spatula clypeata x S. discors";"Northern Shoveler x Blue-winged Teal";HU;hybrid
+01947;650;"Skeand x Knarand (hybrid)";"Spatula clypeata x Mareca strepera";"Northern Shoveler x Gadwall";H;hybrid
+01948;660;"Skeand x Gråand (hybrid)";"Spatula clypeata x Anas platyrhynchos";"Northern Shoveler x Mallard";H;hybrid
+01949;670;"Svømmeand sp.";"Mareca/Anas/Spatula sp.";"Dabbling Duck sp.";H;ubestemt
+01820;680;Knarand;"Mareca strepera";Gadwall;A;art
+01810;690;Segland;"Mareca falcata";"Falcated Duck";E;art
+01790;700;Pibeand;"Mareca penelope";"Eurasian Wigeon";A;art
+01794;710;"Pibeand x Gråand (hybrid)";"Mareca penelope x Anas platyrhynchos";"Eurasian Wigeon x Mallard";H;hybrid
+01793;720;"Pibeand x Krikand (hybrid)";"Mareca penelope x Anas crecca";"Eurasian Wigeon x Eurasian Teal";H;hybrid
+25800;730;Chilepibeand;"Mareca sibilatrix";"Chiloe Wigeon";E;art
+01797;740;"Pibeand x Knarand (hybrid)";"Mareca penelope x M. strepera";"Eurasian Wigeon x Gadwall";H;hybrid
+01798;750;"Pibeand x Chilepibeand (hybrid)";"Mareca penelope x M. sibilatrix";"Eurasian Wigeon x Chiloe Wigeon";H;hybrid
+01799;760;Pibeand/Spidsand;"Mareca penelope/Anas acuta";"Eurasian Wigeon/Pintail";H;ubestemt
+01800;770;"Amerikansk Pibeand";"Mareca americana";"American Wigeon";AU;art
+01808;780;"Amerikansk Pibeand x Pibeand (hybrid)";"Mareca americana x M. penelope";"American Wigeon x Eurasian Wigeon";HU;hybrid
+01860;790;Gråand;"Anas platyrhynchos";Mallard;A;art
+01895;800;"Gråand x Knarand (hybrid)";"Anas platyrhynchos x Mareca strepera";"Mallard x Gadwall";H;hybrid
+01870;810;"Sortbrun And";"Anas rubripes";"American Black Duck";AU;art
+01867;820;"Gråand x Ederfugl (hybrid)";"Anas platyrhynchos x Somateria mollissima";"Mallard x Common Eider";H;hybrid
+01868;830;"Gråand x Troldand (hybrid)";"Anas platyrhynchos x Aythya fuligula";"Mallard x Tufted Duck";H;hybrid
+01866;840;"Gråand x Moskusand (hybrid)";"Anas platyrhynchos x Cairina moschata";"Mallard x Muscovy Duck";H;hybrid
+01869;850;"Gråand x svømmeand sp. (hybrid)";"Anas platyrhynchos x Mareca/Anas/Spatula sp.";"Mallard x Dabbling Duck sp.";H;hybrid
+01890;860;Spidsand;"Anas acuta";"Northern Pintail";A;art
+01893;870;"Spidsand x Pibeand (hybrid)";"Anas acuta x Mareca penelope";"Northern Pintail x Eurasian Wigeon";H;hybrid
+01894;880;"Spidsand x Gråand (hybrid)";"Anas acuta x A. platyrhynchos";"Northern Pintail x Mallard";H;hybrid
+01840;890;Krikand;"Anas crecca";"Eurasian Teal";A;art
+01843;900;"Krikand x Gråand (hybrid)";"Anas crecca x A. platyrhynchos";"Eurasian Teal x Mallard";H;hybrid
+01844;910;"Krikand x Amerikansk Krikand (hybrid)";"Anas crecca x A. carolinensis";"Eurasian Teal x Green-winged Teal";H;hybrid
+01845;920;"Amerikansk Krikand";"Anas carolinensis";"Green-winged Teal";AS;art
+01950;930;Marmorand;"Marmaronetta angustirostris";"Marbled Duck";EU;art
+01960;940;"Rødhovedet And";"Netta rufina";"Red-crested Pochard";AS;art
+01969;950;"Rødhovedet And x Taffeland (hybrid)";"Netta rufina x Aythya ferina";"Red-crested Pochard x Common Pochard";H;hybrid
+01980;960;Taffeland;"Aythya ferina";"Common Pochard";A;art
+01989;970;"Taffeland x Troldand (hybrid)";"Aythya ferina x A. fuligula";"Common Pochard x Tufted Duck";H;hybrid
+02020;980;"Hvidøjet And";"Aythya nyroca";"Ferruginous Duck";AS;art
+02028;990;"Hvidøjet And x Troldand (hybrid)";"Aythya nyroca x A. fuligula";"Ferruginous Duck x Tufted Duck";H;hybrid
+02029;1000;"Hvidøjet And x Taffeland (hybrid)";"Aythya nyroca x A. ferina";"Ferruginous Duck x Common Pochard";H;hybrid
+02000;1010;Halsbåndstroldand;"Aythya collaris";"Ring-necked Duck";AU;art
+02005;1020;"Halsbåndstroldand x Troldand (hybrid)";"Aythya collaris x A. fuligula";"Ring-necked Duck x Tufted Duck";HU;hybrid
+02030;1030;Troldand;"Aythya fuligula";"Tufted Duck";A;art
+02038;1040;Troldand/Bjergand;"Aythya fuligula/A. marila";"Tufted Duck/Greater Scaup";H;ubestemt
+02039;1050;"Troldand x Bjergand (hybrid)";"Aythya fuligula x A. marila";"Tufted Duck x Greater Scaup";H;hybrid
+02040;1060;Bjergand;"Aythya marila";"Greater Scaup";A;art
+02050;1070;"Lille Bjergand";"Aythya affinis";"Lesser Scaup";AU;art
+02051;1080;"Lille Bjergand x Troldand (hybrid)";"Aythya affinis x A. fuligula";"Lesser Scaup x Tufted Duck";HU;hybrid
+02058;1090;"Dykand hybrid";"Aythya sp. x Aythya sp.";"Duck hybrid (Aythya)";H;hybrid
+02059;1100;"Dykand sp. (Aythya sp.)";"Aythya sp.";"Duck sp. (Aythya)";H;ubestemt
+02090;1110;Stellersand;"Polysticta stelleri";"Steller's Eider";AU;art
+02070;1120;Kongeederfugl;"Somateria spectabilis";"King Eider";AS;art
+02078;1130;"Kongeederfugl x Ederfugl (hybrid)";"Somateria spectabilis x S. mollissima";"King Eider x Common Eider";H;hybrid
+02060;1140;Ederfugl;"Somateria mollissima";"Common Eider";A;art
+02063;1150;"Ederfugl, Arktisk (ssp. borealis)";"Somateria mollissima borealis";"Common Eider (ssp. borealis)";AU;underart
+02140;1160;Brilleand;"Melanitta perspicillata";"Surf Scoter";AS;art
+02150;1170;Fløjlsand;"Melanitta fusca";"Velvet Scoter";A;art
+02153;1180;"Amerikansk Fløjlsand";"Melanitta deglandi";"White-winged Scoter";AU;art
+02152;1190;"Asiatisk Fløjlsand";"Melanitta stejnegeri";"Stejneger's Scoter";AU;art
+02151;1195;"Amerikansk/Asiatisk Fløjlsand";"Melanitta deglandi/M. stejnegeri";"White-winged Scoter/Stejneger's Scoter";HU;ubestemt
+02130;1200;Sortand;"Melanitta nigra";"Common Scoter";A;art
+02132;1210;"Amerikansk Sortand";"Melanitta americana";"Black Scoter";AS;art
+02120;1220;Havlit;"Clangula hyemalis";"Long-tailed Duck";A;art
+02160;1230;Bøffeland;"Bucephala albeola";Bufflehead;DU;art
+02180;1240;Hvinand;"Bucephala clangula";"Common Goldeneye";A;art
+02189;1250;"Hvinand x Lille Skallesluger (hybrid)";"Bucephala clangula x Mergellus albellus";"Common Goldeneye x Smew";H;hybrid
+02200;1260;"Lille Skallesluger";"Mergellus albellus";Smew;A;art
+02190;1270;Hjelmskallesluger;"Lophodytes cucullatus";"Hooded Merganser";DU;art
+02230;1280;"Stor Skallesluger";"Mergus merganser";"Common Merganser";A;art
+02210;1290;"Toppet Skallesluger";"Mergus serrator";"Red-breasted Merganser";A;art
+02218;1300;"Toppet Skallesluger/Stor Skallesluger";"Mergus serrator/M. merganser";"Red-breasted Merganser/Common Merganser";H;ubestemt
+02239;1310;"Skallesluger sp.";"Mergus sp.";"Merganser sp.";H;ubestemt
+02268;1320;"Dykand sp. (Mergini)";Mergini;"Duck sp. (Mergini)";H;ubestemt
+02269;1330;"Andefugl sp.";Anatidae;"Swan/Goose/Duck sp.";H;ubestemt
+02250;1340;"Amerikansk Skarveand";"Oxyura jamaicensis";"Ruddy Duck";CU;art
+02260;1350;"Hvidhovedet And";"Oxyura leucocephala";"White-headed Duck";AU;art
+03350;1360;Tjur;"Tetrao urogallus";"Western Capercaillie";E;art
+03320;1370;Urfugl;"Lyrurus tetrix";"Black Grouse";AU;art
+03670;1380;Agerhøne;"Perdix perdix";"Grey Partridge";A;art
+03930;1390;Kongefasan;"Syrmaticus reevesii";"Reeves's Pheasant";E;art
+03960;1400;Guldfasan;"Chrysolophus pictus";"Golden Pheasant";E;art
+03940;1410;Fasan;"Phasianus colchicus";"Common Pheasant";C;art
+35670;1420;Påfugl;"Pavo cristatus";"Indian Peafowl";E;art
+03700;1430;Vagtel;"Coturnix coturnix";"Common Quail";A;art
+03580;1440;Rødhøne;"Alectoris rufa";"Red-legged Partridge";E;art
+03550;1450;Chukarhøne;"Alectoris chukar";"Chukar Partridge";E;art
+07790;1460;"Rødhalset Natravn";"Caprimulgus ruficollis";"Red-necked Nightjar";U;art
+07780;1470;Natravn;"Caprimulgus europaeus";"European Nightjar";A;art
+07810;1480;Ørkennatravn;"Caprimulgus aegyptius";"Egyptian Nightjar";AU;art
+07920;1490;Tornhalesejler;"Hirundapus caudacutus";"White-throated Needletail";AU;art
+07980;1500;Alpesejler;"Tachymarptis melba";"Alpine Swift";AU;art
+07950;1510;Mursejler;"Apus apus";"Common Swift";A;art
+08009;1520;"Sejler sp.";"Apus sp.";"Swift sp.";H;ubestemt
+07960;1530;Gråsejler;"Apus pallidus";"Pallid Swift";AU;art
+07970;1540;Orientsejler;"Apus pacificus";"Pacific Swift";AU;art
+08000;1550;"Lille Sejler";"Apus affinis";"Little Swift";AU;art
+07990;1560;Kaffersejler;"Apus caffer";"White-rumped Swift";AU;art
+04460;1570;Stortrappe;"Otis tarda";"Great Bustard";AU;art
+04445;1580;"Østlig Kravetrappe";"Chlamydotis macqueenii";"Macqueen's Bustard";BU;art
+04420;1590;Dværgtrappe;"Tetrax tetrax";"Little Bustard";AU;art
+07160;1600;Skadegøg;"Clamator glandarius";"Great Spotted Cuckoo";AU;art
+07280;1610;"Gulnæbbet Gøg";"Coccyzus americanus";"Yellow-billed Cuckoo";BU;art
+07270;1620;"Sortnæbbet Gøg";"Coccyzus erythropthalmus";"Black-billed Cuckoo";AU;art
+07240;1630;Gøg;"Cuculus canorus";"Common Cuckoo";A;art
+06630;1640;Steppehøne;"Syrrhaptes paradoxus";"Pallas's Sandgrouse";AU;art
+06650;1650;"Klippedue (tamdue)";"Columba livia";"Rock Dove";C;art
+06680;1660;Huldue;"Columba oenas";"Stock Dove";A;art
+06700;1670;Ringdue;"Columba palumbus";"Common Wood Pigeon";A;art
+06870;1680;Turteldue;"Streptopelia turtur";"European Turtle Dove";AS;art
+06890;1690;"Østlig Turteldue";"Streptopelia orientalis";"Oriental Turtle Dove";AU;art
+06840;1700;Tyrkerdue;"Streptopelia decaocto";"Eurasian Collared Dove";A;art
+06950;1710;Sørgedue;"Zenaida macroura";"Mourning Dove";AU;art
+07069;1720;"Due sp.";Columbidae;"Dove/Pigeon sp.";H;ubestemt
+04070;1730;Vandrikse;"Rallus aquaticus";"Water Rail";A;art
+04210;1740;Engsnarre;"Crex crex";"Corn Crake";A;art
+04080;1750;"Plettet Rørvagtel";"Porzana porzana";"Spotted Crake";AS;art
+04240;1760;Rørhøne;"Gallinula chloropus";"Common Moorhen";A;art
+04290;1770;Blishøne;"Fulica atra";"Eurasian Coot";A;art
+04298;1780;"Blishøne x Rørhøne (hybrid)";"Fulica atra x Gallinula chloropus";"Eurasian Coot x Common Moorhen";H;hybrid
+04250;1790;"Lille Sultanhøne";"Porphyrio alleni";"Allen's Gallinule";BU;art
+04270;1800;Sultanhøne;"Porphyrio porphyrio";"Western Swamphen";E;art
+04110;1810;Dværgrørvagtel;"Zapornia pusilla";"Baillon's Crake";AU;art
+04169;1820;"Rørvagtel sp.";"Porzana/Zapornia sp.";"Crake sp.";H;ubestemt
+04100;1830;"Lille Rørvagtel";"Zapornia parva";"Little Crake";AU;art
+04360;1840;Prærietrane;"Antigone canadensis";"Sandhill Crane";AU;art
+04410;1850;Jomfrutrane;"Grus virgo";"Demoiselle Crane";AU;art
+04380;1860;"Japansk Trane";"Grus japonensis";"Red-crowned Crane";E;art
+04330;1870;Trane;"Grus grus";"Common Crane";A;art
+04409;1880;"Trane sp.";"Grus/Antigone sp.";"Crane sp.";H;ubestemt
+04419;1890;"Stork/Trane sp.";"Ciconia/Grus/Antigone sp.";"Stork/Crane sp.";H;ubestemt
+00070;1900;"Lille Lappedykker";"Tachybaptus ruficollis";"Little Grebe";A;art
+00100;1910;"Gråstrubet Lappedykker";"Podiceps grisegena";"Red-necked Grebe";A;art
+00090;1920;"Toppet Lappedykker";"Podiceps cristatus";"Great Crested Grebe";A;art
+00099;1930;"Toppet Lappedykker/Gråstrubet Lappedykker";"Podiceps cristatus/P. grisegena";"Great Crested Grebe/Red-necked Grebe";H;ubestemt
+00110;1940;"Nordisk Lappedykker";"Podiceps auritus";"Horned Grebe";A;art
+00119;1950;"Nordisk Lappedykker/Sorthalset Lappedykker";"Podiceps auritus/P. nigricollis";"Horned Grebe/Black-necked Grebe";H;ubestemt
+00120;1960;"Sorthalset Lappedykker";"Podiceps nigricollis";"Black-necked Grebe";A;art
+00139;1970;"Lappedykker sp.";Podicipedidae;"Grebe sp.";H;ubestemt
+01472;1980;"Stor Flamingo";"Phoenicopterus roseus";"Greater Flamingo";DU;art
+01471;1990;Cariberflamingo;"Phoenicopterus ruber";"American Flamingo";E;art
+01470;2000;"Stor Flamingo/Cariberflamingo";"Phoenicopterus roseus/P. ruber";"Greater Flamingo/American Flamingo";H;ubestemt
+01475;2010;Chileflamingo;"Phoenicopterus chilensis";"Chilean Flamingo";E;art
+01480;2020;"Lille Flamingo";"Phoeniconaias minor";"Lesser Flamingo";E;art
+01489;2030;"Flamingo sp.";Phoenicopteridae;"Flamingo sp.";H;ubestemt
+04590;2040;Triel;"Burhinus oedicnemus";"Eurasian Stone-curlew";AU;art
+04500;2050;Strandskade;"Haematopus ostralegus";"Eurasian Oystercatcher";A;art
+04550;2060;Stylteløber;"Himantopus himantopus";"Black-winged Stilt";AS;art
+04560;2070;Klyde;"Recurvirostra avosetta";"Pied Avocet";A;art
+04860;2080;Strandhjejle;"Pluvialis squatarola";"Grey Plover";A;art
+04850;2090;Hjejle;"Pluvialis apricaria";"European Golden Plover";A;art
+04845;2100;"Sibirisk Hjejle";"Pluvialis fulva";"Pacific Golden Plover";AU;art
+04840;2110;"Amerikansk Hjejle";"Pluvialis dominica";"American Golden Plover";AU;art
+04848;2120;"Amerikansk Hjejle/Sibirisk Hjejle";"Pluvialis fulva/P. dominica";"Pacific Golden Plover/American Golden Plover";HU;ubestemt
+04820;2130;Pomeransfugl;"Eudromias morinellus";"Eurasian Dotterel";AS;art
+04700;2140;"Stor Præstekrave";"Charadrius hiaticula";"Common Ringed Plover";A;art
+04701;2150;"Stor Præstekrave (ssp. hiaticula)";"Charadrius hiaticula hiaticula";"Common Ringed Plover (ssp. hiaticula)";A;underart
+04702;2160;"Stor Præstekrave, Tundra (ssp. tundrae)";"Charadrius hiaticula tundrae";"Common Ringed Plover (ssp. tundrae)";A;underart
+04690;2170;"Lille Præstekrave";"Charadrius dubius";"Little Ringed Plover";A;art
+04930;2180;Vibe;"Vanellus vanellus";"Northern Lapwing";A;art
+04870;2190;Sporevibe;"Vanellus spinosus";"Spur-winged Lapwing";EU;art
+04910;2200;Steppevibe;"Vanellus gregarius";"Sociable Lapwing";AU;art
+04920;2210;Sumpvibe;"Vanellus leucurus";"White-tailed Lapwing";AU;art
+04939;2220;"Brokfugl sp.";Charadriinae;"Lapwing/Plover sp.";H;ubestemt
+04800;2230;"Kaspisk Præstekrave";"Anarhynchus asiaticus";"Caspian Plover";AU;art
+04795;2240;"Ørken-/Tibetansk/Sibirisk Præstekrave";"Anarhynchus leschenaultii/atrifrons/mongolus";"Greater/Tibetan/Siberian Sand Plover";HU;ubestemt
+04780;2250;"Tibetansk Præstekrave";"Anarhynchus atrifrons";"Tibetan Sand Plover";AU;art
+04786;2260;"Sibirisk Præstekrave";"Anarhynchus mongolus";"Siberian Sand Plover";AU;art
+04790;2270;Ørkenpræstekrave;"Anarhynchus leschenaultii";"Greater Sand Plover";AU;art
+04770;2280;"Hvidbrystet Præstekrave";"Anarhynchus alexandrinus";"Kentish Plover";AS;art
+05440;2290;Bartramsklire;"Bartramia longicauda";"Upland Sandpiper";AU;art
+05380;2300;Småspove;"Numenius phaeopus";"Eurasian Whimbrel";A;art
+05410;2310;Storspove;"Numenius arquata";"Eurasian Curlew";A;art
+05439;2320;"Spove sp.";"Numenius sp.";"Whimbrel/Curlew sp.";H;ubestemt
+05340;2330;"Lille Kobbersneppe";"Limosa lapponica";"Bar-tailed Godwit";A;art
+05320;2340;"Stor Kobbersneppe";"Limosa limosa";"Black-tailed Godwit";A;art
+05321;2350;"Stor Kobbersneppe (ssp. limosa)";"Limosa limosa limosa";"Black-tailed Godwit (ssp. limosa)";A;underart
+05322;2360;"Stor Kobbersneppe, Islandsk (ssp. islandica)";"Limosa limosa islandica";"Black-tailed Godwit (ssp. islandica)";A;underart
+05330;2370;"Canadisk Kobbersneppe";"Limosa haemastica";"Hudsonian Godwit";AU;art
+05270;2380;"Langnæbbet Sneppeklire";"Limnodromus scolopaceus";"Long-billed Dowitcher";AU;art
+05289;2390;"Sneppeklire sp.";"Limnodromus sp.";"Dowitcher sp.";HU;ubestemt
+05180;2400;Enkeltbekkasin;"Lymnocryptes minimus";"Jack Snipe";A;art
+05290;2410;Skovsneppe;"Scolopax rusticola";"Eurasian Woodcock";A;art
+05200;2420;Tredækker;"Gallinago media";"Great Snipe";AS;art
+05190;2430;Dobbeltbekkasin;"Gallinago gallinago";"Common Snipe";A;art
+05630;2440;"Amerikansk Svømmesneppe";"Phalaropus tricolor";"Wilson's Phalarope";AU;art
+05650;2450;Thorshane;"Phalaropus fulicarius";"Red Phalarope";AS;art
+05649;2460;Odinshane/Thorshane;"Phalaropus lobatus/P. fulicarius";"Red-necked Phalarope/Red Phalarope";H;ubestemt
+05640;2470;Odinshane;"Phalaropus lobatus";"Red-necked Phalarope";AS;art
+05550;2480;Terekklire;"Xenus cinereus";"Terek Sandpiper";AU;art
+05560;2490;Mudderklire;"Actitis hypoleucos";"Common Sandpiper";A;art
+05570;2500;"Plettet Mudderklire";"Actitis macularius";"Spotted Sandpiper";AU;art
+05530;2510;Svaleklire;"Tringa ochropus";"Green Sandpiper";A;art
+05470;2520;Damklire;"Tringa stagnatilis";"Marsh Sandpiper";AS;art
+05540;2530;Tinksmed;"Tringa glareola";"Wood Sandpiper";A;art
+05460;2540;Rødben;"Tringa totanus";"Common Redshank";A;art
+05461;2550;"Rødben (ssp. totanus)";"Tringa totanus totanus";"Common Redshank (ssp. totanus)";A;underart
+05462;2560;"Rødben, Islandsk (ssp. robusta)";"Tringa totanus robusta";"Common Redshank (ssp. robusta)";A;underart
+05459;2570;Sortklire/Rødben;"Tringa erythropus/T. totanus";"Spotted Redshank/Common Redshank";H;ubestemt
+05510;2580;"Lille Gulben";"Tringa flavipes";"Lesser Yellowlegs";AU;art
+05450;2590;Sortklire;"Tringa erythropus";"Spotted Redshank";A;art
+05480;2600;Hvidklire;"Tringa nebularia";"Common Greenshank";A;art
+05500;2610;"Stor Gulben";"Tringa melanoleuca";"Greater Yellowlegs";AU;art
+05610;2620;Stenvender;"Arenaria interpres";"Ruddy Turnstone";A;art
+04960;2630;"Islandsk Ryle";"Calidris canutus";"Red Knot";A;art
+04961;2640;"Islandsk Ryle, Sibirisk (ssp. canutus)";"Calidris canutus canutus";"Red Knot (ssp. canutus)";A;underart
+04962;2650;"Islandsk Ryle, Baffinryle (ssp. islandica)";"Calidris canutus islandica";"Red Knot (ssp. islandica)";A;underart
+04969;2660;"Islandsk Ryle/Lille Kobbersneppe";"Calidris canutus/limosa lapponica";"Red Knot/Bar-Tailed Godwit";H;ubestemt
+05170;2670;Brushane;"Calidris pugnax";Ruff;A;art
+05140;2680;Kærløber;"Calidris falcinellus";"Broad-billed Sandpiper";AS;art
+05080;2690;"Spidshalet Ryle";"Calidris acuminata";"Sharp-tailed Sandpiper";AU;art
+05150;2700;Klireryle;"Calidris himantopus";"Stilt Sandpiper";AU;art
+05090;2710;"Krumnæbbet Ryle";"Calidris ferruginea";"Curlew Sandpiper";A;art
+05020;2720;Temmincksryle;"Calidris temminckii";"Temminck's Stint";A;art
+05000;2730;"Rødhalset Ryle";"Calidris ruficollis";"Red-necked Stint";AU;art
+05160;2740;Prærieløber;"Calidris subruficollis";"Buff-breasted Sandpiper";AU;art
+04970;2750;Sandløber;"Calidris alba";Sanderling;A;art
+05120;2760;"Almindelig Ryle";"Calidris alpina";Dunlin;A;art
+05121;2770;"Almindelig Ryle, Nordlig (ssp. alpina)";"Calidris alpina alpina";"Dunlin (ssp. alpina)";A;underart
+05123;2780;"Almindelig Ryle, Engryle (ssp. schinzii)";"Calidris alpina schinzii";"Dunlin (ssp. schinzii)";A;underart
+05129;2790;"Ryle sp.";"Calidris sp.";"Sandpiper sp.";H;ubestemt
+05100;2800;"Sortgrå Ryle";"Calidris maritima";"Purple Sandpiper";A;art
+05060;2810;Bairdsryle;"Calidris bairdii";"Baird's Sandpiper";AU;art
+05010;2820;Dværgryle;"Calidris minuta";"Little Stint";A;art
+05018;2830;Dværgryle/Temmincksryle;"Calidris minuta/C. temminckii";"Little Stint/Temminck´s Stint";H;ubestemt
+05050;2840;"Hvidrygget Ryle";"Calidris fuscicollis";"White-rumped Sandpiper";AU;art
+05070;2850;"Stribet Ryle";"Calidris melanotos";"Pectoral Sandpiper";AS;art
+04980;2860;"Tyknæbbet Dværgryle";"Calidris pusilla";"Semipalmated Sandpiper";AU;art
+04640;2870;Ørkenløber;"Cursorius cursor";"Cream-colored Courser";AU;art
+04660;2880;Orientbraksvale;"Glareola maldivarum";"Oriental Pratincole";AU;art
+04670;2890;"Sortvinget Braksvale";"Glareola nordmanni";"Black-winged Pratincole";AU;art
+04689;2900;"Braksvale sp.";"Glareola sp.";"Pratincole sp.";HU;ubestemt
+05658;2910;"Vader sp., Stor";"Charadrii sp.";"Limicolae (Larger)";H;ubestemt
+05659;2920;"Vader sp., Lille";"Charadrii sp.";"Limicolae (Smaller)";H;ubestemt
+04650;2930;"Rødvinget Braksvale";"Glareola pratincola";"Collared Pratincole";AU;art
+06230;2940;"Sodfarvet Terne";"Onychoprion fuscatus";"Sooty Tern";U;art
+06220;2950;Brilleterne;"Onychoprion anaethetus";"Bridled Tern";AU;art
+06240;2960;Dværgterne;"Sternula albifrons";"Little Tern";A;art
+06050;2970;Sandterne;"Gelochelidon nilotica";"Gull-billed Tern";AS;art
+06060;2980;Rovterne;"Hydroprogne caspia";"Caspian Tern";A;art
+06260;2990;"Hvidskægget Terne";"Chlidonias hybrida";"Whiskered Tern";AU;art
+06270;3000;Sortterne;"Chlidonias niger";"Black Tern";A;art
+06289;3010;"Moseterne sp.";"Chlidonias sp.";"Tern sp. (Chlidonias)";H;ubestemt
+06280;3020;"Hvidvinget Terne";"Chlidonias leucopterus";"White-winged Tern";AS;art
+06160;3030;Havterne;"Sterna paradisaea";"Arctic Tern";A;art
+06159;3040;Fjordterne/Havterne;"Sterna hirundo/S. paradisaea";"Common Tern/Arctic Tern";H;ubestemt
+06150;3050;Fjordterne;"Sterna hirundo";"Common Tern";A;art
+06140;3060;Rosenterne;"Sterna dougallii";"Roseate Tern";AU;art
+06110;3070;Splitterne;"Thalasseus sandvicensis";"Sandwich Tern";A;art
+06259;3080;"Terne sp.";"Sterna/Clidonias/etc sp.";"Tern sp.";H;ubestemt
+06120;3090;Aztekerterne;"Thalasseus elegans";"Elegant Tern";AU;art
+05780;3100;Dværgmåge;"Hydrocoloeus minutus";"Little Gull";A;art
+06010;3110;Rosenmåge;"Rhodostethia rosea";"Ross's Gull";AU;art
+06020;3120;Ride;"Rissa tridactyla";"Black-legged Kittiwake";A;art
+06040;3130;Ismåge;"Pagophila eburnea";"Ivory Gull";AU;art
+05790;3140;Sabinemåge;"Xema sabini";"Sabine's Gull";AS;art
+05850;3150;"Tyndnæbbet Måge";"Chroicocephalus genei";"Slender-billed Gull";AU;art
+05810;3160;Bonapartemåge;"Chroicocephalus philadelphia";"Bonaparte's Gull";AU;art
+05820;3170;Hættemåge;"Chroicocephalus ridibundus";"Black-headed Gull";A;art
+05760;3180;Lattermåge;"Leucophaeus atricilla";"Laughing Gull";AU;art
+05770;3190;Præriemåge;"Leucophaeus pipixcan";"Franklin's Gull";AU;art
+05730;3200;"Stor Sorthovedet Måge";"Ichthyaetus ichthyaetus";"Pallas's Gull";AU;art
+05880;3210;Audouinsmåge;"Ichthyaetus audouinii";"Audouin's Gull";AU;art
+05750;3220;"Sorthovedet Måge";"Ichthyaetus melanocephalus";"Mediterranean Gull";A;art
+05758;3230;"Sorthovedet Måge x Hættemåge (hybrid)";"Ichthyaetus melanocephalus x Chroicocephalus ridibundus";"Mediterranean Gull x Black-headed Gull";H;hybrid
+05900;3240;Stormmåge;"Larus canus";"Common Gull";A;art
+05901;3250;"Stormmåge (ssp. canus)";"Larus canus canus";"Common Gull (ssp. canus)";A;underart
+05902;3260;"Stormmåge, Russisk (ssp. heinei)";"Larus canus heinei";"Common Gull (ssp. heinei)";AS;underart
+05890;3270;"Ringnæbbet Måge";"Larus delawarensis";"Ring-billed Gull";AU;art
+05930;3280;"Kaspisk Måge";"Larus cachinnans";"Caspian Gull";A;art
+05935;3290;"Sølvmåge x Kaspisk Måge (hybrid)";"Larus argentatus x L. cachinnans";"European Herring Gull x Caspian Gull";H;hybrid
+05918;3300;"Sølvmåge x Sildemåge (hybrid)";"Larus argentatus x L. fuscus";"European Herring Gull x Lesser Black-backed Gull";H;hybrid
+05999;3310;"Sølvmåge x Gråmåge (hybrid)";"Larus argentatus x L. hyperboreus";"European Herring Gull x Glaucous Gull";H;hybrid
+05920;3320;Sølvmåge;"Larus argentatus";"European Herring Gull";A;art
+05928;3330;"Sølvmåge, Britisk (ssp. argenteus)";"Larus argentatus argenteus";"European Herring Gull (ssp. argenteus)";A;underart
+05921;3340;"Sølvmåge, Skandinavisk (ssp. argentatus)";"Larus argentatus argentatus";"European Herring Gull (ssp. argentatus)";A;underart
+05915;3350;Middelhavssølvmåge;"Larus michahellis";"Yellow-legged Gull";AS;art
+05919;3360;"Armensk Måge";"Larus armenicus";"Armenian Gull";AU;art
+06000;3370;Svartbag;"Larus marinus";"Great Black-backed Gull";A;art
+06049;3380;"Måge sp.";Larini;"Gull sp.";H;ubestemt
+05990;3390;Gråmåge;"Larus hyperboreus";"Glaucous Gull";AS;art
+05910;3400;Sildemåge;"Larus fuscus";"Lesser Black-backed Gull";A;art
+05913;3410;"Sildemåge, Nordsøsildemåge (ssp. intermedius)";"Larus fuscus intermedius";"Lesser Black-backed Gull (ssp. intermedius)";A;underart
+05912;3420;"Sildemåge, Britisk (ssp. graellsii)";"Larus fuscus graellsii";"Lesser Black-backed Gull (ssp. graellsii)";A;underart
+05911;3430;"Sildemåge, Baltisk (ssp. fuscus)";"Larus fuscus fuscus";"Lesser Black-backed Gull (ssp. fuscus)";AS;underart
+05922;3440;"Sildemåge, Sibirisk Måge (ssp. heuglini)";"Larus fuscus heuglini";"Lesser Black-backed Gull (ssp. heuglini)";AU;underart
+05960;3450;"Gråvinget Måge";"Larus glaucescens";"Glaucous-winged Gull";AU;art
+05980;3460;"Hvidvinget Måge";"Larus glaucoides";"Iceland Gull";AS;art
+05981;3470;"Hvidvinget Måge (ssp. glaucoides)";"Larus glaucoides glaucoides";"Iceland Gull (ssp. glaucoides)";AS;underart
+05982;3480;"Hvidvinget Måge, Baffinmåge (ssp. kumlieni)";"Larus glaucoides kumlieni";"Iceland Gull (ssp. kumlieni)";AU;underart
+05983;3490;"Hvidvinget Måge, Inuitmåge (ssp. thayeri)";"Larus glaucoides thayeri";"Iceland Gull (ssp. thayeri)";AU;underart
+05680;3500;"Lille Kjove";"Stercorarius longicaudus";"Long-tailed Jaeger";AS;art
+05670;3510;"Almindelig Kjove";"Stercorarius parasiticus";"Parasitic Jaeger";A;art
+05679;3520;"Almindelig Kjove/Lille Kjove";"Stercorarius parasiticus/S. longicaudus";"Parasitic Jaeger/Long-tailed Jaeger";H;ubestemt
+05660;3530;Mellemkjove;"Stercorarius pomarinus";"Pomarine Jaeger";AS;art
+05669;3540;"Mellemkjove/Almindelig Kjove";"Stercorarius pomarinus/S. parasiticus";"Pomarine Jaeger/Parasitic Jaeger";H;ubestemt
+05690;3550;Storkjove;"Stercorarius skua";"Great Skua";A;art
+05709;3560;"Kjove sp.";Stercorariini;"Jaeger/Skua sp.";H;ubestemt
+06540;3570;Lunde;"Fratercula arctica";"Atlantic Puffin";AS;art
+06380;3580;Tejst;"Cepphus grylle";"Black Guillemot";A;art
+06381;3590;"Tejst, Baltisk (ssp. grylle)";"Cepphus grylle grylle";"Black Guillemot (ssp. grylle)";A;underart
+06385;3600;"Tejst, Atlantisk (ssp. arcticus)";"Cepphus grylle arcticus";"Black Guillemot (ssp. arcticus)";A;underart
+06386;3605;"Tejst, Arktisk (ssp. mandtii)";"Cepphus grylle mandtii";"Black Guillemot (ssp. mandtii)";U;underart
+06360;3610;Alk;"Alca torda";Razorbill;A;art
+06361;3620;"Alk, Nordlig (ssp. torda)";"Alca torda torda";"Razorbill (ssp. torda)";A;underart
+06362;3630;"Alk, Atlantisk (ssp. islandica)";"Alca torda islandica";"Razorbill (ssp. islandica)";A;underart
+06470;3640;Søkonge;"Alle alle";"Little Auk";AS;art
+06350;3650;Polarlomvie;"Uria lomvia";"Thick-billed Murre";AU;art
+06340;3660;Lomvie;"Uria aalge";"Common Murre";A;art
+06341;3670;"Lomvie, Nordlig (ssp. aalge)";"Uria aalge aalge";"Common Murre (ssp. aalge)";A;underart
+06343;3680;"Lomvie, Arktisk (ssp. hyperborea)";"Uria aalge hyperborea";"Common Murre (ssp. hyperborea)";AU;underart
+06342;3690;"Lomvie, Britisk (ssp. albionis)";"Uria aalge albionis";"Common Murre (ssp. albionis)";A;underart
+06369;3700;Lomvie/Alk;"Uria aalge/Alca torda";"Common Murre/Razorbill";H;ubestemt
+06569;3710;"Alkefugl sp.";Alcinae;"Auk sp.";H;ubestemt
+00020;3720;"Rødstrubet Lom";"Gavia stellata";"Red-throated Loon";A;art
+00029;3730;"Rødstrubet Lom/Sortstrubet Lom";"Gavia stellata/G. arctica";"Red-throated Loon/Black-throated Loon";H;ubestemt
+00030;3740;"Sortstrubet Lom";"Gavia arctica";"Black-throated Loon";A;art
+00033;3750;Stillehavslom;"Gavia pacifica";"Pacific Loon";AU;art
+00040;3760;Islom;"Gavia immer";"Common Loon";AS;art
+00049;3770;"Islom/Hvidnæbbet Lom";"Gavia immer/G. adamsii";"Common Loon/Yellow-billed Loon";H;ubestemt
+00050;3780;"Hvidnæbbet Lom";"Gavia adamsii";"Yellow-billed Loon";AS;art
+00059;3790;"Lom sp.";Gaviidae;"Loon sp.";H;ubestemt
+00500;3800;"Wilsons Stormsvale";"Oceanites oceanicus";"Wilson's Storm Petrel";AU;art
+00140;3810;"Sortbrynet Albatros";"Thalassarche melanophris";"Black-browed Albatross";AU;art
+00209;3820;"Albatros sp.";Diomedeidae;"Albatross sp.";HU;ubestemt
+00520;3830;"Lille Stormsvale";"Hydrobates pelagicus";"European Storm Petrel";AS;art
+00550;3840;"Stor Stormsvale";"Hydrobates leucorhous";"Leach's Storm Petrel";AS;art
+00639;3850;"Stormsvale sp.";Hydrobatidae;"Storm Petrel sp.";H;ubestemt
+00220;3860;Mallemuk;"Fulmarus glacialis";"Northern Fulmar";A;art
+00259;3870;"Madeira/Kap Verde/Desertas Petrel";"Pterodroma madeira/feae/deserta";"Zino's/Fea's/Desertas Petrel";HU;ubestemt
+00362;3880;"Atlantisk Skråpe";"Calonectris borealis";"Cory's Shearwater";AU;art
+00360;3890;"Atlantisk Skråpe/Scopolis Skråpe";"Calonectris borealis/C. diomedea";"Cory's Shearwater/Scopolis Shearwater";HU;ubestemt
+00369;3900;Atlantisk/Scopolis/Storskråpe;"Calonectris borealis/C. diomedea/Puffinus gravis";"Cory's/Scopolis/Great Shearwater";HU;ubestemt
+00361;3910;"Scopolis Skråpe";"Calonectris diomedea";"Scopoli's Shearwater";AU;art
+00430;3920;"Sodfarvet Skråpe";"Ardenna grisea";"Sooty Shearwater";AS;art
+00400;3930;Storskråpe;"Ardenna gravis";"Great Shearwater";AU;art
+00460;3940;"Almindelig Skråpe";"Puffinus puffinus";"Manx Shearwater";AS;art
+00459;3950;"Balearskråpe/Almindelig Skråpe";"Puffinus mauretanicus/P. puffinus";"Balearic Shearwater/Manx Shearwater";H;ubestemt
+00465;3960;Ægæerskråpe;"Puffinus yelkouan";"Yelkouan Shearwater";U;art
+00455;3970;Balearskråpe;"Puffinus mauretanicus";"Balearic Shearwater";AU;art
+00490;3980;Tropeskråpe;"Puffinus lherminieri";"Audubon's Shearwater";AU;art
+00499;4000;"Skråpe sp.";Procellariidae;"Shearwater sp.";H;ubestemt
+01310;4010;"Sort Stork";"Ciconia nigra";"Black Stork";AS;art
+01340;4020;"Hvid Stork";"Ciconia ciconia";"White Stork";A;art
+01359;4030;"Stork sp.";Ciconiidae;"Stork sp.";H;ubestemt
+00930;4040;Pragtfregatfugl;"Fregata magnificens";"Magnificent Frigatebird";AU;art
+00710;4050;Sule;"Morus bassanus";"Northern Gannet";A;art
+00700;4060;"Brun Sule";"Sula leucogaster";"Brown Booby";AU;art
+00820;4065;Dværgskarv;"Microcarbo pygmaeus";"Pygmy Cormorant";AU;art
+00720;4070;Skarv;"Phalacrocorax carbo";"Great Cormorant";A;art
+00721;4080;"Skarv, Storskarv (ssp. carbo)";"Phalacrocorax carbo carbo";"Great Cormorant (ssp. carbo)";A;underart
+00722;4090;"Skarv, Mellemskarv (ssp. sinensis)";"Phalacrocorax carbo sinensis";"Great Cormorant (ssp. sinensis)";A;underart
+00849;4100;"Skarv sp.";Phalacrocoracidae;"Cormorant/Shag sp.";H;ubestemt
+00800;4110;Topskarv;"Gulosus aristotelis";"European Shag";AS;art
+01420;4120;"Hellig Ibis";"Threskiornis aethiopicus";"African Sacred Ibis";EU;art
+01370;4130;Eremitibis;"Geronticus eremita";"Northern Bald Ibis";EU;art
+01360;4140;"Sort Ibis";"Plegadis falcinellus";"Glossy Ibis";AS;art
+01440;4150;Skestork;"Platalea leucorodia";"Eurasian Spoonbill";A;art
+34130;4160;"Afrikansk Skestork";"Platalea alba";"African Spoonbill";E;art
+00950;4170;Rørdrum;"Botaurus stellaris";"Eurasian Bittern";A;art
+00960;4180;"Amerikansk Rørdrum";"Botaurus lentiginosus";"American Bittern";AU;art
+00980;4190;Dværghejre;"Botaurus minutus";"Little Bittern";AU;art
+01040;4200;Nathejre;"Nycticorax nycticorax";"Black-crowned Night Heron";AU;art
+01190;4210;Silkehejre;"Egretta garzetta";"Little Egret";AS;art
+01219;4220;"Hejre sp. (hvid)";Ardeidae;"Egret/Heron sp. (white)";H;ubestemt
+01259;4230;"Hejre sp.";Ardeidae;"Heron sp.";H;ubestemt
+01080;4240;Tophejre;"Ardeola ralloides";"Squacco Heron";AU;art
+01110;4250;Kohejre;"Ardea ibis";"Western Cattle Egret";AS;art
+01210;4260;Sølvhejre;"Ardea alba";"Great Egret";A;art
+01220;4270;Fiskehejre;"Ardea cinerea";"Grey Heron";A;art
+01240;4280;Purpurhejre;"Ardea purpurea";"Purple Heron";AU;art
+00880;4290;"Hvid Pelikan";"Pelecanus onocrotalus";"Great White Pelican";DU;art
+00900;4300;Rosapelikan;"Pelecanus rufescens";"Pink-backed Pelican";E;art
+00890;4310;"Krøltoppet Pelikan";"Pelecanus crispus";"Dalmatian Pelican";AU;art
+00919;4320;"Pelikan sp.";Pelecanidae;"Pelican sp.";HU;ubestemt
+02270;4330;Kalkungrib;"Cathartes aura";"Turkey Vulture";E;art
+03010;4340;Fiskeørn;"Pandion haliaetus";"Western Osprey";A;art
+02350;4350;"Blå Glente";"Elanus caeruleus";"Black-winged Kite";AU;art
+02460;4360;Lammegrib;"Gypaetus barbatus";"Bearded Vulture";EU;art
+02470;4370;Ådselgrib;"Neophron percnopterus";"Egyptian Vulture";AU;art
+02310;4380;Hvepsevåge;"Pernis apivorus";"European Honey Buzzard";A;art
+02530;4390;"Rüppells Grib";"Gyps rueppelli";"Rüppell's Vulture";E;art
+02510;4400;Gåsegrib;"Gyps fulvus";"Griffon Vulture";AU;art
+02550;4410;Munkegrib;"Aegypius monachus";"Cinereous Vulture";U;art
+02559;4420;"Grib sp.";"Gypeatus/Gyps/Aegypticus/Neophron sp.";"Vulture sp.";HU;ubestemt
+02560;4430;Slangeørn;"Circaetus gallicus";"Short-toed Snake Eagle";AU;art
+02920;4440;"Lille Skrigeørn";"Clanga pomarina";"Lesser Spotted Eagle";AS;art
+02930;4450;"Stor Skrigeørn";"Clanga clanga";"Greater Spotted Eagle";AU;art
+02929;4460;"Lille Skrigeørn/Stor Skrigeørn";"Clanga pomarina/C. clanga";"Lesser Spotted Eagle/Greater Spotted Eagle";HS;ubestemt
+02980;4470;Dværgørn;"Hieraaetus pennatus";"Booted Eagle";AU;art
+02945;4480;Steppeørn;"Aquila nipalensis";"Steppe Eagle";AU;art
+02950;4490;Kejserørn;"Aquila heliaca";"Eastern Imperial Eagle";AU;art
+02960;4500;Kongeørn;"Aquila chrysaetos";"Golden Eagle";AS;art
+02990;4510;Høgeørn;"Aquila fasciata";"Bonelli's Eagle";AU;art
+02979;4520;"Ørn sp.";"Aquila/Clanga/Haliaeetus/Hieraatus sp.";"Eagle sp.";H;ubestemt
+02690;4530;Spurvehøg;"Accipiter nisus";"Eurasian Sparrowhawk";A;art
+02670;4540;Duehøg;"Astur gentilis";"Northern Goshawk";A;art
+02672;4550;"Duehøg, Russisk (ssp. buteoides)";"Astur gentilis buteoides";"Northern Goshawk (ssp. buteoides)";AU;underart
+02749;4560;"Høg sp.";"Accipiter/Astur sp.";"Hawk sp.";H;ubestemt
+02600;4570;Rørhøg;"Circus aeruginosus";"Western Marsh Harrier";A;art
+02610;4580;"Blå Kærhøg";"Circus cyaneus";"Hen Harrier";A;art
+02615;4590;"Amerikansk Kærhøg";"Circus hudsonius";"Northern Harrier";AU;art
+02620;4600;Steppehøg;"Circus macrourus";"Pallid Harrier";AS;art
+02619;4610;"Blå Kærhøg x Steppehøg (hybrid)";"Circus cyaneus x C. macrourus";"Hen Harrier x Pallid Harrier";H;hybrid
+02629;4620;Steppehøg/Hedehøg;"Circus macrourus/C. pygargus";"Pallid Harrier/Montagu's Harrier";H;ubestemt
+02630;4630;Hedehøg;"Circus pygargus";"Montagu's Harrier";A;art
+02649;4640;"Kærhøg sp.";"Circus sp.";"Harrier sp.";H;ubestemt
+02390;4650;"Rød Glente";"Milvus milvus";"Red Kite";A;art
+02380;4660;"Sort Glente";"Milvus migrans";"Black Kite";AS;art
+02382;4670;"Gulnæbbet Glente";"Milvus aegyptius";"Yellow-billed Kite";DU;art
+02388;4680;"Sort Glente/Rød Glente";"Milvus migrans/M. milvus";"Black Kite/Red Kite";H;ubestemt
+02389;4690;"Sort Glente x Rød Glente (hybrid)";"Milvus migrans x M. milvus";"Black Kite x Red Kite";H;hybrid
+02450;4700;Beringhavørn;"Haliaeetus pelagicus";"Steller's Sea Eagle";EU;art
+02430;4710;Havørn;"Haliaeetus albicilla";"White-tailed Eagle";A;art
+02440;4720;"Hvidhovedet Havørn";"Haliaeetus leucocephalus";"Bald Eagle";EU;art
+02900;4730;Fjeldvåge;"Buteo lagopus";"Rough-legged Buzzard";A;art
+02880;4740;Ørnevåge;"Buteo rufinus";"Long-legged Buzzard";AU;art
+02919;4750;"Våge sp.";"Buteo sp.";"Buzzard sp.";H;ubestemt
+02870;4760;Musvåge;"Buteo buteo";"Common Buzzard";A;art
+02872;4770;"Musvåge, Steppevåge (ssp. vulpinus)";"Buteo buteo vulpinus";"Common Buzzard (ssp. vulpinus)";AU;underart
+07350;4780;Slørugle;"Tyto alba";"Western Barn Owl";A;art
+07351;4790;"Slørugle, Hvidbrystet (ssp. alba)";"Tyto alba alba";"Western Barn Owl (ssp. alba)";AU;underart
+07352;4800;"Slørugle, Mørkbrystet (ssp. guttata)";"Tyto alba guttata";"Western Barn Owl (ssp. guttata)";A;underart
+07700;4810;Perleugle;"Aegolius funereus";"Boreal Owl";AS;art
+07570;4820;Kirkeugle;"Athene noctua";"Little Owl";AS;art
+07500;4830;Høgeugle;"Surnia ulula";"Northern Hawk-Owl";AU;art
+07510;4840;Spurveugle;"Glaucidium passerinum";"Eurasian Pygmy Owl";AU;art
+07390;4850;Dværghornugle;"Otus scops";"Eurasian Scops Owl";AU;art
+07670;4860;Skovhornugle;"Asio otus";"Long-eared Owl";A;art
+07680;4870;Mosehornugle;"Asio flammeus";"Short-eared Owl";A;art
+07679;4880;Skovhornugle/Mosehornugle;"Asio otus/A. flammeus";"Long-eared Owl/Short-eared Owl";H;ubestemt
+07490;4890;Sneugle;"Bubo scandiacus";"Snowy Owl";AU;art
+07440;4900;"Stor Hornugle";"Bubo bubo";"Eurasian Eagle-Owl";C;art
+07719;4910;"Ugle sp.";Strigidae;"Owl sp.";H;ubestemt
+07610;4920;Natugle;"Strix aluco";"Tawny Owl";A;art
+08460;4930;Hærfugl;"Upupa epops";"Eurasian Hoopoe";AS;art
+08410;4940;Ellekrage;"Coracias garrulus";"European Roller";AU;art
+08310;4950;Isfugl;"Alcedo atthis";"Common Kingfisher";A;art
+08390;4960;"Grøn Biæder";"Merops persicus";"Blue-cheeked Bee-eater";AU;art
+08400;4970;Biæder;"Merops apiaster";"European Bee-eater";AS;art
+08480;4980;Vendehals;"Jynx torquilla";"Eurasian Wryneck";A;art
+08980;4990;"Tretået Spætte";"Picoides tridactylus";"Eurasian Three-toed Woodpecker";AU;art
+09019;5000;"Spætte sp.";Picidae;"Woodpecker sp.";H;ubestemt
+08830;5010;Mellemflagspætte;"Dendrocoptes medius";"Middle Spotted Woodpecker";AS;art
+08870;5020;"Lille Flagspætte";"Dryobates minor";"Lesser Spotted Woodpecker";A;art
+08871;5030;"Lille Flagspætte, Nordlig (ssp. minor)";"Dryobates minor minor";"Lesser Spotted Woodpecker (ssp. minor)";A;underart
+08876;5040;"Lille Flagspætte, Sydlig (ssp. hortorum)";"Dryobates minor hortorum";"Lesser Spotted Woodpecker (ssp. hortorum)";A;underart
+08760;5050;"Stor Flagspætte";"Dendrocopos major";"Great Spotted Woodpecker";A;art
+08761;5060;"Stor Flagspætte, Nordlig (ssp. major)";"Dendrocopos major major";"Great Spotted Woodpecker (ssp. major)";A;underart
+08764;5070;"Stor Flagspætte, Sydlig (ssp. pinetorum)";"Dendrocopos major pinetorum";"Great Spotted Woodpecker (ssp. pinetorum)";A;underart
+08769;5080;"Stor Flagspætte x Hvidrygget Flagspætte (hybrid)";"Dendrocopos major x D. leucotos";"Great Spotted Woodpecker x White-backed Woodpecker";HU;hybrid
+08500;5090;Guldspætte;"Colaptes auratus";"Northern Flicker";AU;art
+08630;5100;Sortspætte;"Dryocopus martius";"Black Woodpecker";A;art
+08560;5110;Grønspætte;"Picus viridis";"European Green Woodpecker";A;art
+03030;5120;"Lille Tårnfalk";"Falco naumanni";"Lesser Kestrel";AU;art
+03040;5130;Tårnfalk;"Falco tinnunculus";"Common Kestrel";A;art
+03050;5140;"Amerikansk Tårnfalk";"Falco sparverius";"American Kestrel";BU;art
+03070;5150;Aftenfalk;"Falco vespertinus";"Red-footed Falcon";AS;art
+03110;5160;Eleonorafalk;"Falco eleonorae";"Eleonora's Falcon";AU;art
+03090;5170;Dværgfalk;"Falco columbarius";Merlin;A;art
+03100;5180;Lærkefalk;"Falco subbuteo";"Eurasian Hobby";A;art
+03109;5190;Lærkefalk/Aftenfalk;"Falco subbuteo/F. vespertinus";"Eurasian Hobby/Red-footed Falcon";H;ubestemt
+03140;5200;Lannerfalk;"Falco biarmicus";"Lanner Falcon";DU;art
+03160;5210;Slagfalk;"Falco cherrug";"Saker Falcon";AU;art
+03180;5220;Jagtfalk;"Falco rusticolus";Gyrfalcon;AU;art
+03200;5230;Vandrefalk;"Falco peregrinus";"Peregrine Falcon";A;art
+03205;5240;"Vandrefalk, Sibirisk (ssp. calidus)";"Falco peregrinus calidus";"Peregrine Falcon (ssp. calidus)";AU;underart
+03189;5250;"Storfalk sp.";"Falco sp.";"Large Falcon sp.";H;ubestemt
+03219;5260;"Falk sp.";"Falco sp.";"Falcon sp.";H;ubestemt
+40010;5270;Nymfeparakit;"Nymphicus hollandicus";Cockatiel;E;art
+07085;5280;Munkeparakit;"Myiopsitta monachus";"Monk Parakeet";E;art
+07149;5290;"Papegøje sp.";Psittacidae;"Parakeet/Parrot sp.";H;ubestemt
+07135;5300;"Stor Alexanderparakit";"Psittacula eupatria";"Alexandrine Parakeet";E;art
+07120;5310;Alexanderparakit;"Psittacula krameri";"Rose-ringed Parakeet";E;art
+40000;5320;Undulat;"Melopsittacus undulatus";Budgerigar;E;art
+16330;5330;"Rødøjet Vireo";"Vireo olivaceus";"Red-eyed Vireo";AU;art
+15080;5340;Pirol;"Oriolus oriolus";"Eurasian Golden Oriole";AS;art
+15200;5350;"Stor Tornskade";"Lanius excubitor";"Great Grey Shrike";A;art
+15195;5360;"Stor Tornskade, Ørkentornskade (ssp. pallidirostris)";"Lanius excubitor pallidirostris";"Great Grey Shrike (ssp. pallidirostris)";AU;underart
+15190;5370;"Rosenbrystet Tornskade";"Lanius minor";"Lesser Grey Shrike";AU;art
+15230;5380;"Rødhovedet Tornskade";"Lanius senator";"Woodchat Shrike";AU;art
+15249;5390;"Tornskade sp.";"Lanius sp.";"Shrike sp.";H;ubestemt
+15150;5400;"Rødrygget Tornskade";"Lanius collurio";"Red-backed Shrike";A;art
+15140;5410;Turkestantornskade;"Lanius phoenicuroides";"Red-tailed Shrike";AU;art
+15130;5420;"Brun Tornskade";"Lanius cristatus";"Brown Shrike";AU;art
+15170;5430;"Langhalet Tornskade";"Lanius schach";"Long-tailed Shrike";AU;art
+15390;5440;Skovskade;"Garrulus glandarius";"Eurasian Jay";A;art
+15470;5450;"Iberisk Blåskade";"Cyanopica cooki";"Iberian Magpie";E;art
+15490;5460;Husskade;"Pica pica";"Eurasian Magpie";A;art
+15570;5470;Nøddekrige;"Nucifraga caryocatactes";"Spotted Nutcracker";AS;art
+15571;5480;"Nøddekrige, Tyknæbbet (ssp. caryocatactes)";"Nucifraga caryocatactes caryocatactes";"Spotted Nutcracker (ssp. caryocatactes)";AS;underart
+15572;5490;"Nøddekrige, Tyndnæbbet (ssp. macrorhynchos)";"Nucifraga caryocatactes macrorhynchos";"Spotted Nutcracker (ssp. macrorhynchos)";AS;underart
+15600;5500;Allike;"Coloeus monedula";"Western Jackdaw";A;art
+15601;5510;"Allike, Almindelig (ssp. monedula)";"Coloeus monedula monedula";"Western Jackdaw (ssp. monedula)";A;underart
+15603;5520;"Allike, Vestlig (ssp. spermologus)";"Coloeus monedula spermologus";"Western Jackdaw (ssp. spermologus)";A;underart
+15602;5530;"Allike, Halsbåndsallike (ssp. soemmerringii)";"Coloeus monedula soemmerringii";"Western Jackdaw (ssp. soemmerringii)";U;underart
+15610;5540;"Sibirisk Allike";"Coloeus dauuricus";"Daurian Jackdaw";AU;art
+15630;5550;Råge;"Corvus frugilegus";Rook;A;art
+15671;5560;Sortkrage;"Corvus corone";"Carrion Crow";A;art
+15673;5570;Gråkrage;"Corvus cornix";"Hooded Crow";A;art
+15679;5580;"Sortkrage x Gråkrage (hybrid)";"Corvus corone x C. cornix";"Carrion Crow x Hooded Crow";H;hybrid
+15670;5590;Sortkrage/Gråkrage;"Corvus corone/C. cornix";"Carrion Crow/Hooded Crow";H;ubestemt
+15749;5600;"Kragefugl sp.";Corvidae;"Corvid sp.";H;ubestemt
+15700;5610;"Broget Krage";"Corvus albus";"Pied Crow";EU;art
+15720;5620;Ravn;"Corvus corax";"Northern Raven";A;art
+10480;5630;Silkehale;"Bombycilla garrulus";"Bohemian Waxwing";A;art
+14610;5640;Sortmejse;"Periparus ater";"Coal Tit";A;art
+14540;5650;Topmejse;"Lophophanes cristatus";"European Crested Tit";A;art
+14400;5660;Sumpmejse;"Poecile palustris";"Marsh Tit";A;art
+14420;5670;Fyrremejse;"Poecile montanus";"Willow Tit";A;art
+14421;5680;"Fyrremejse, Nordlig (ssp. borealis)";"Poecile montanus borealis";"Willow Tit (ssp. borealis)";AU;underart
+14423;5690;"Fyrremejse, Pilemejse (ssp. salicarius)";"Poecile montanus salicarius";"Willow Tit (ssp. salicarius)";A;underart
+14409;5700;Sumpmejse/Fyrremejse;"Poecile palustris/P. montanus";"Marsh Tit/Willow Tit";H;ubestemt
+14620;5710;Blåmejse;"Cyanistes caeruleus";"Eurasian Blue Tit";A;art
+14640;5720;Musvit;"Parus major";"Great Tit";A;art
+14669;5730;"Mejse sp.";"Parus/Poecile/etc. sp.";"Tit sp.";H;ubestemt
+14900;5740;Pungmejse;"Remiz pendulinus";"Eurasian Penduline Tit";AS;art
+13640;5750;Skægmejse;"Panurus biarmicus";"Bearded Reedling";A;art
+09740;5760;Hedelærke;"Lullula arborea";Woodlark;A;art
+09760;5770;Sanglærke;"Alauda arvensis";"Eurasian Skylark";A;art
+09720;5780;Toplærke;"Galerida cristata";"Crested Lark";AS;art
+09799;5790;"Lærke sp.";Alaudidae;"Lark sp.";H;ubestemt
+09780;5800;Bjerglærke;"Eremophila alpestris";"Horned Lark";A;art
+09680;5810;"Korttået Lærke";"Calandrella brachydactyla";"Greater Short-toed Lark";AU;art
+09620;5820;"Østlig Kalanderlærke";"Melanocorypha bimaculata";"Bimaculated Lark";AU;art
+09700;5830;Dværglærke;"Alaudala rufescens";"Lesser Short-toed Lark";U;art
+09810;5840;Digesvale;"Riparia riparia";"Sand Martin";A;art
+10019;5850;"Svale sp.";Hirundinidae;"Swallow/Martin sp.";H;ubestemt
+09910;5860;Klippesvale;"Ptyonoprogne rupestris";"Eurasian Crag Martin";AU;art
+09920;5870;Landsvale;"Hirundo rustica";"Barn Swallow";A;art
+09923;5880;"Landsvale, Libanonlandsvale (ssp. transitiva)";"Hirundo rustica transitiva";"Barn Swallow (ssp. transitiva)";U;underart
+10018;5890;"Landsvale x Bysvale (hybrid)";"Hirundo rustica x Delichon urbicum";"Barn Swallow x Common House Martin";H;hybrid
+10010;5900;Bysvale;"Delichon urbicum";"Common House Martin";A;art
+09950;5910;"Rødrygget Svale";"Cecropis rufula";"European Red-rumped Swallow";AS;art
+32450;5915;"Rødbrystet Svale";"Cecropis semirufa";"Red-breasted Swallow";AU;art
+09951;5915;Amursvale;"Cecropis daurica";"Eastern Red-rumped Swallow";AU;art
+14370;5920;Halemejse;"Aegithalos caudatus";"Long-tailed Tit";A;art
+14371;5930;"Halemejse, Nordlig (ssp. caudatus)";"Aegithalos caudatus caudatus";"Long-tailed Bushtit (ssp. caudatus)";A;underart
+14374;5940;"Halemejse, Sydlig (ssp. europaeus)";"Aegithalos caudatus europaeus";"Long-tailed Bushtit (ssp. europaeus)";A;underart
+14378;5950;"Nordlig Halemejse x Sydlig Halemejse (hybrid)";"Aegithalos c. caudatus x A. c. europaeus";"Long-tailed Bushtit (caudatus x europaeus)";H;hybrid
+13080;5960;Skovsanger;"Phylloscopus sibilatrix";"Wood Warbler";A;art
+13070;5970;Bjergløvsanger;"Phylloscopus bonelli";"Western Bonelli's Warbler";AU;art
+13079;5980;Bjergløvsanger/Balkanløvsanger;"Phylloscopus bonelli/P. orientalis";"Western Bonelli´s Warbler/Eastern Bonelli´s Warbler";HU;ubestemt
+13005;5990;Himalayasanger;"Phylloscopus humei";"Hume's Leaf Warbler";AU;art
+13000;6000;"Hvidbrynet Løvsanger";"Phylloscopus inornatus";"Yellow-browed Warbler";AS;art
+12980;6010;Fuglekongesanger;"Phylloscopus proregulus";"Pallas's Leaf Warbler";AS;art
+13010;6020;"Schwarz´ Løvsanger";"Phylloscopus schwarzi";"Radde's Warbler";AU;art
+13050;6030;Sinkiangløvsanger;"Phylloscopus griseolus";"Sulphur-bellied warbler";AU;art
+13030;6040;"Brun Løvsanger";"Phylloscopus fuscatus";"Dusky Warbler";AS;art
+13120;6050;Løvsanger;"Phylloscopus trochilus";"Willow Warbler";A;art
+13121;6060;"Løvsanger, Almindelig (ssp. trochilus)";"Phylloscopus trochilus trochilus";"Willow Warbler (ssp. trochilus)";A;underart
+13122;6070;"Løvsanger, Nordlig (ssp. acredula)";"Phylloscopus trochilus acredula";"Willow Warbler (ssp. acredula)";A;underart
+13119;6080;"Gransanger x Løvsanger (hybrid)";"Phylloscopus collybita x P. trochilus";"Common Chiffchaff x Willow Warbler";H;hybrid
+13110;6090;Gransanger;"Phylloscopus collybita";"Common Chiffchaff";A;art
+13111;6100;"Gransanger, Sydlig (ssp. collybita)";"Phylloscopus collybita collybita";"Common Chiffchaff (ssp. collybita)";A;underart
+13114;6110;"Gransanger, Skandinavisk (ssp. abietinus)";"Phylloscopus collybita abietinus";"Common Chiffchaff (ssp. abietinus)";A;underart
+13113;6120;"Gransanger, Sibirisk (ssp. tristis)";"Phylloscopus collybita tristis";"Common Chiffchaff (ssp. tristis)";AS;underart
+13116;6130;"Iberisk Gransanger";"Phylloscopus ibericus";"Iberian Chiffchaff";AU;art
+12910;6140;"Grøn Sanger";"Phylloscopus nitidus";"Green Warbler";AU;art
+13129;6150;"Phylloscopus sp.";"Phylloscopus sp.";"Warbler sp. (Phylloscopus)";H;ubestemt
+12920;6160;"Østlig Lundsanger";"Phylloscopus plumbeitarsus";"Two-barred Warbler";AU;art
+12930;6170;Lundsanger;"Phylloscopus trochiloides";"Greenish Warbler";AS;art
+12950;6180;Nordsanger;"Phylloscopus borealis";"Arctic Warbler";AU;art
+12530;6190;Drosselrørsanger;"Acrocephalus arundinaceus";"Great Reed Warbler";AS;art
+12410;6200;Tamarisksanger;"Acrocephalus melanopogon";"Moustached Warbler";U;art
+12420;6210;Vandsanger;"Acrocephalus paludicola";"Aquatic Warbler";AU;art
+12430;6220;Sivsanger;"Acrocephalus schoenobaenus";"Sedge Warbler";A;art
+12470;6230;"Lille Rørsanger";"Acrocephalus agricola";"Paddyfield Warbler";AU;art
+12480;6240;Buskrørsanger;"Acrocephalus dumetorum";"Blyth's Reed Warbler";AS;art
+12510;6250;Rørsanger;"Acrocephalus scirpaceus";"Eurasian Reed Warbler";A;art
+12500;6260;Kærsanger;"Acrocephalus palustris";"Marsh Warbler";A;art
+12560;6270;"Lille Gulbug";"Iduna caligata";"Booted Warbler";AU;art
+12550;6280;"Bleg Gulbug";"Iduna pallida";"Eastern Olivaceous Warbler";AU;art
+12600;6290;Spottesanger;"Hippolais polyglotta";"Melodious Warbler";AU;art
+12590;6300;Gulbug;"Hippolais icterina";"Icterine Warbler";A;art
+12390;6310;"Stor Græshoppesanger";"Helopsaltes fasciolatus";"Gray's Grasshopper Warbler";AU;art
+12350;6320;"Stribet Græshoppesanger";"Locustella lanceolata";"Lanceolated Warbler";AU;art
+12370;6330;Flodsanger;"Locustella fluviatilis";"River Warbler";AS;art
+12380;6340;Savisanger;"Locustella luscinioides";"Savi's Warbler";AS;art
+12360;6350;Græshoppesanger;"Locustella naevia";"Common Grasshopper Warbler";A;art
+12260;6360;Cistussanger;"Cisticola juncidis";"Zitting Cisticola";AU;art
+12770;6370;Munk;"Sylvia atricapilla";"Eurasian Blackcap";A;art
+12760;6380;Havesanger;"Sylvia borin";"Garden Warbler";A;art
+12730;6390;Høgesanger;"Curruca nisoria";"Barred Warbler";AS;art
+12740;6400;Gærdesanger;"Curruca curruca";"Lesser Whitethroat";A;art
+12742;6410;"Gærdesanger, Sibirisk (ssp. blythi)";"Curruca curruca blythi";"Lesser Whitethroat (ssp. blythi)";AU;underart
+12739;6420;"Gærdesanger, Steppe (ssp. halimodendri)";"Curruca curruca halimodendri";"Lesser Whitethroat (ssp. halimodendri)";AU;underart
+12747;6430;"Gærdesanger, Sibirisk/Steppe (ssp. blythi/halimodendri)";"Curruca curruca blythi/C. C. halimodendri";"Lesser Whitethroat (ssp. blythi/halimodendri)";U;underart
+12700;6440;"Asiatisk Ørkensanger";"Curruca nana";"Asian Desert Warbler";AU;art
+12690;6450;"Sortstrubet Sanger";"Curruca ruppeli";"Rüppell's Warbler";AU;art
+12670;6460;"Sorthovedet Sanger";"Curruca melanocephala";"Sardinian Warbler";AU;art
+12656;6470;"Iberisk Sanger";"Curruca iberiae";"Western Subalpine Warbler";AU;art
+12655;6480;Makisanger;"Curruca subalpina";"Moltoni's Warbler";AU;art
+12654;6490;"Rødstrubet Sanger";"Curruca cantillans";"Eastern Subalpine Warbler";AU;art
+12653;6500;"Rødstrubet Sanger (ssp. albistriata)";"Curruca cantillans albistriata";"Eastern Subalpine Warbler (ssp. albistriata)";AU;underart
+12651;6510;"Rødstrubet Sanger (ssp. cantillans)";"Curruca cantillans cantillans";"Eastern Subalpine Warbler (ssp. cantillans)";AU;underart
+12650;6520;"Rødstrubet Sanger/Iberisk Sanger/Makisanger";"Curruca cantillans/iberiae/subalpina";"Eastern/Western Subalpine/Moltoni's Warbler";HU;ubestemt
+12750;6530;Tornsanger;"Curruca communis";"Common Whitethroat";A;art
+12610;6540;"Sardinsk Sanger";"Curruca sarda";"Marmora's Warbler";AU;art
+13150;6550;"Rødtoppet Fuglekonge";"Regulus ignicapilla";"Common Firecrest";A;art
+13168;6560;"Sanger sp.";Sylvidae;"Warbler sp.";H;ubestemt
+13140;6570;Fuglekonge;"Regulus regulus";Goldcrest;A;art
+10660;6580;Gærdesmutte;"Troglodytes troglodytes";"Eurasian Wren";A;art
+10669;6590;"Gærdesmutte, Nordatlantisk (fridariensis/hirtensis/borealis)";"Troglodytes troglodytes ssp. fridariensis/hirtensis/borealis";"Eurasian Wren (ssp. fridariensis/hirtensis/borealis)";AU;underart
+14790;6600;Spætmejse;"Sitta europaea";"Eurasian Nuthatch";A;art
+14791;6610;"Spætmejse, Lysbuget (ssp. europaea)";"Sitta europaea europaea";"Eurasian Nuthatch (ssp. europaea)";A;underart
+14793;6620;"Spætmejse, Mørkbuget (ssp. caesia)";"Sitta europaea caesia";"Eurasian Nuthatch (ssp. caesia)";A;underart
+14860;6630;Træløber;"Certhia familiaris";"Eurasian Treecreeper";A;art
+14861;6640;"Træløber, Nordlig (ssp. familiaris)";"Certhia familiaris familiaris";"Eurasian Treecreeper (ssp. familiaris)";A;underart
+14863;6650;"Træløber, Sydlig (ssp. macrodactyla)";"Certhia familiaris macrodactyla";"Eurasian Treecreeper (ssp. macrodactyla)";A;underart
+14869;6660;"Træløber/Korttået Træløber";"Certhia familiaris/C. brachydactyla";"Eurasian Treecreeper/Short-toed Treecreeper";H;ubestemt
+14870;6670;"Korttået Træløber";"Certhia brachydactyla";"Short-toed Treecreeper";A;art
+15840;6680;Rosenstær;"Pastor roseus";"Rosy Starling";AS;art
+15820;6690;Stær;"Sturnus vulgaris";"Common Starling";A;art
+15830;6700;"Ensfarvet Stær";"Sturnus unicolor";"Spotless Starling";AU;art
+33810;6710;"Rødvinget Sortstær";"Onychognathus morio";"Red-winged Starling";E;art
+11770;6720;Olivenskovdrossel;"Catharus ustulatus";"Swainson's Thrush";AU;art
+11760;6730;Eremitdrossel;"Catharus guttatus";"Hermit Thrush";AU;art
+11700;6740;Gulddrossel;"Zoothera aurea";"White's Thrush";AU;art
+12000;6750;Sangdrossel;"Turdus philomelos";"Song Thrush";A;art
+12020;6760;Misteldrossel;"Turdus viscivorus";"Mistle Thrush";A;art
+12010;6770;Vindrossel;"Turdus iliacus";Redwing;A;art
+12012;6780;"Vindrossel, Islandsk (ssp. coburni)";"Turdus iliacus coburni";"Redwing (ssp. coburni)";AS;underart
+12009;6790;Sangdrossel/Vindrossel;"Turdus philomelos/T. iliacus";"Song Thrush/Redwing";H;ubestemt
+11870;6800;Solsort;"Turdus merula";"Common Blackbird";A;art
+11950;6810;"Gråstrubet Drossel";"Turdus obscurus";"Eyebrowed Thrush";AU;art
+11980;6820;Sjagger;"Turdus pilaris";Fieldfare;A;art
+11989;6830;"Sjagger x Solsort (hybrid)";"Turdus pilaris x T. merula";"Fieldfare x Common Blackbird";H;hybrid
+11860;6840;Ringdrossel;"Turdus torquatus";"Ring Ouzel";A;art
+11972;6850;"Sortstrubet Drossel";"Turdus atrogularis";"Black-throated Thrush";AU;art
+12069;6860;"Drossel sp.";Turdinae;"Thrush sp.";H;ubestemt
+11962;6870;Brundrossel;"Turdus eunomus";"Dusky Thrush";AU;art
+12030;6880;Vandredrossel;"Turdus migratorius";"American Robin";AU;art
+13340;6890;"Brun Fluesnapper";"Muscicapa dauurica";"Asian Brown Flycatcher";AU;art
+13350;6900;"Grå Fluesnapper";"Muscicapa striata";"Spotted Flycatcher";A;art
+10990;6910;Rødhals;"Erithacus rubecula";"European Robin";A;art
+11030;6920;Nattergal;"Luscinia luscinia";"Thrush Nightingale";A;art
+11040;6930;"Sydlig Nattergal";"Luscinia megarhynchos";"Common Nightingale";AS;art
+11039;6940;"Nattergal/Sydlig Nattergal";"Luscinia luscinia/L. megarhynchos";"Thrush Nightingale/Common Nightingale";H;ubestemt
+11060;6950;Blåhals;"Luscinia svecica";Bluethroat;A;art
+11061;6960;"Blåhals, Nordlig (ssp. svecica)";"Luscinia svecica svecica";"Bluethroat (ssp. svecica)";AS;underart
+11062;6970;"Blåhals, Sydlig (ssp. cyanecula)";"Luscinia svecica cyanecula";"Bluethroat (ssp. cyanecula)";A;underart
+11050;6980;Rubinnattergal;"Calliope calliope";"Siberian Rubythroat";AU;art
+11020;6990;"Manchurernattergal";"Larvivora sibilans";"Rufous-tailed Robin";AU;art
+13430;7000;"Lille Fluesnapper";"Ficedula parva";"Red-breasted Flycatcher";AS;art
+13432;7010;Tajgafluesnapper;"Ficedula albicilla";"Taiga Flycatcher";AU;art
+13490;7020;"Broget Fluesnapper";"Ficedula hypoleuca";"European Pied Flycatcher";A;art
+13480;7030;"Hvidhalset Fluesnapper";"Ficedula albicollis";"Collared Flycatcher";AS;art
+13489;7040;"Hvidhalset Fluesnapper x Broget Fluesnapper (hybrid)";"Ficedula albicollis x F. hypoleuca";"Collared Flycatcher x European Pied Flycatcher";H;hybrid
+13559;7050;"Fluesnapper sp.";Muscicapidae;"Flycatcher sp.";H;ubestemt
+11130;7060;Blåstjert;"Tarsiger cyanurus";"Red-flanked Bluetail";AU;art
+11210;7070;Husrødstjert;"Phoenicurus ochruros";"Black Redstart";A;art
+11215;7080;"Husrødstjert, Tien-Shan (ssp. phoenicuroides)";"Phoenicurus ochruros phoenicuroides";"Black Redstart (ssp. phoenicuroides)";U;underart
+11220;7090;Rødstjert;"Phoenicurus phoenicurus";"Common Redstart";A;art
+11620;7100;Stendrossel;"Monticola saxatilis";"Common Rock Thrush";AU;art
+11370;7110;Bynkefugl;"Saxicola rubetra";Whinchat;A;art
+11392;7120;Bjergbynkefugl;"Saxicola stejnegeri";"Stejneger's Stonechat";AU;art
+11398;7130;"Sibirisk Bynkefugl/Japansk Bynkefugl";"Saxicola maurus/S. stejnegeri";"Siberian Stonechat/Stejneger's Stonechat";HU;ubestemt
+11399;7140;"Sibirisk Bynkefugl";"Saxicola maurus";"Siberian Stonechat";AU;art
+11396;7150;"Sibirisk Bynkefugl, Steppebynkefugl (ssp. variegatus)";"Saxicola maurus variegatus";"Siberian Stonechat (ssp. variegatus)";AU;underart
+11394;7160;"Sibirisk Bynkefugl (ssp. maurus)";"Saxicola maurus maurus";"Siberian Stonechat (ssp. maurus)";AU;underart
+11397;7170;"Sibirisk Bynkefugl, Kaukasusbynkefugl (ssp. hemprichii)";"Saxicola maurus hemprichii";"Siberian Stonechat (ssp. hemprichii)";AU;underart
+11390;7180;"Sortstrubet Bynkefugl";"Saxicola rubicola";"European Stonechat";A;art
+11391;7190;"Sortstrubet Bynkefugl, Europæisk (ssp. rubicola)";"Saxicola rubicola rubicola";"European Stonechat (ssp. rubicola)";A;underart
+11393;7200;"Sortstrubet Bynkefugl, Atlantisk (ssp. hibernans)";"Saxicola rubicola hibernans";"European Stonechat (ssp. hibernans)";A;underart
+11460;7210;Stenpikker;"Oenanthe oenanthe";"Northern Wheatear";A;art
+11461;7220;"Stenpikker (ssp. oenanthe)";"Oenanthe oenanthe oenanthe";"Northern Wheatear (ssp. oenanthe)";A;underart
+11462;7230;"Stenpikker, Grønlandsk (ssp. leucorhoa)";"Oenanthe oenanthe leucorhoa";"Northern Wheatear (ssp. leucorhoa)";A;underart
+11440;7240;Isabellastenpikker;"Oenanthe isabellina";"Isabelline Wheatear";AU;art
+11490;7250;Ørkenstenpikker;"Oenanthe deserti";"Desert Wheatear";AU;art
+11480;7260;"Vestlig Middelhavsstenpikker/Østlig Middelhavsstenpikker ";"Oenanthe hispanica/O. melanoleuca";"Western Black-eared Wheatear/Eastern Black-eared Wheatear";HU;ubestemt
+11481;7270;"Vestlig Middelhavsstenpikker";"Oenanthe hispanica";"Western Black-eared Wheatear";AU;art
+11470;7280;Nonnestenpikker;"Oenanthe pleschanka";"Pied Wheatear";AU;art
+11482;7290;"Østlig Middelhavsstenpikker";"Oenanthe melanoleuca";"Eastern Black-eared Wheatear";AU;art
+11570;7300;"Hvidkronet Stenpikker";"Oenanthe leucopyga";"White-crowned Wheatear";AU;art
+10500;7310;Vandstær;"Cinclus cinclus";"White-throated Dipper";A;art
+16110;7320;Snefinke;"Montifringilla nivalis";"White-winged Snowfinch";AU;art
+15980;7330;Skovspurv;"Passer montanus";"Eurasian Tree Sparrow";A;art
+15989;7340;"Gråspurv x Skovspurv (hybrid)";"Passer domesticus x P. montanus";"House Sparrow x Eurasian Tree Sparrow";H;hybrid
+15988;7350;Gråspurv/Skovspurv;"Passer domesticus/P. montanus";"House Sparrow/Eurasian Tree Sparrow";H;ubestemt
+15920;7360;"Spansk Spurv";"Passer hispaniolensis";"Spanish Sparrow";AU;art
+15910;7370;Gråspurv;"Passer domesticus";"House Sparrow";A;art
+10940;7380;Alpejernspurv;"Prunella collaris";"Alpine Accentor";AU;art
+10860;7390;"Sibirisk Jernspurv";"Prunella montanella";"Siberian Accentor";AU;art
+10900;7400;"Sortstrubet Jernspurv";"Prunella atrogularis";"Black-throated Accentor";AU;art
+10840;7410;Jernspurv;"Prunella modularis";Dunnock;A;art
+10170;7420;"Gul Vipstjert";"Motacilla flava";"Western Yellow Wagtail";A;art
+10171;7430;"Gul Vipstjert (ssp. flava)";"Motacilla flava flava";"Western Yellow Wagtail (ssp. flava)";A;underart
+10172;7440;"Gul Vipstjert, Gulhovedet (ssp. flavissima)";"Motacilla flava flavissima";"Western Yellow Wagtail (ssp. flavissima)";AS;underart
+10174;7450;"Gul Vipstjert, Sorthovedet (ssp. feldegg)";"Motacilla flava feldegg";"Western Yellow Wagtail (ssp. feldegg)";AU;underart
+10173;7460;"Gul Vipstjert, Nordlig (ssp. thunbergi)";"Motacilla flava thunbergi";"Western Yellow Wagtail (ssp. thunbergi)";A;underart
+10179;7470;"Gul Vipstjert, Almindelig x Gulhovedet (hybrid)";"Motacilla flava flava x M. f. flavissima";"Western Yellow Wagtail (flava x flavissima)";H;hybrid
+26643;7475;"Sibirisk Vipstjert";"Motacilla tschutschensis";"Eastern Yellow Wagtail";AU;art
+10180;7480;Citronvipstjert;"Motacilla citreola";"Citrine Wagtail";AS;art
+10181;7490;"Citronvipstjert x Gul Vipstjert (hybrid)";"Motacilla citreola x M. flava";"Citrine Wagtail x Western Yellow Wagtail";H;hybrid
+10190;7500;Bjergvipstjert;"Motacilla cinerea";"Grey Wagtail";A;art
+10200;7510;"Hvid Vipstjert";"Motacilla alba";"White Wagtail";A;art
+10201;7520;"Hvid Vipstjert (ssp. alba)";"Motacilla alba alba";"White Wagtail (ssp. alba)";A;underart
+10202;7530;"Hvid Vipstjert, Sortrygget Vipstjert (ssp. yarrellii)";"Motacilla alba yarrellii";"White Wagtail (ssp. yarrellii)";AS;underart
+10239;7540;"Vipstjert sp.";"Motacilla sp.";"Wagtail sp.";H;ubestemt
+10020;7550;Storpiber;"Anthus richardi";"Richard's Pipit";AS;art
+10040;7560;"Mongolsk Piber";"Anthus godlewskii";"Blyth's Pipit";AU;art
+10050;7570;Markpiber;"Anthus campestris";"Tawny Pipit";AS;art
+10159;7580;"Piber sp.";"Anthus sp.";"Pipit sp.";H;ubestemt
+10110;7590;Engpiber;"Anthus pratensis";"Meadow Pipit";A;art
+10090;7600;Skovpiber;"Anthus trivialis";"Tree Pipit";A;art
+10080;7610;Tajgapiber;"Anthus hodgsoni";"Olive-backed Pipit";AU;art
+10120;7620;"Rødstrubet Piber";"Anthus cervinus";"Red-throated Pipit";AS;art
+10140;7630;Bjergpiber;"Anthus spinoletta";"Water Pipit";AS;art
+10135;7640;Skærpiber;"Anthus petrosus";"European Rock Pipit";A;art
+10144;7650;Bjergpiber/Skærpiber;"Anthus spinoletta/A. petrosus";"Water Pipit/European Rock Pipit";H;ubestemt
+16360;7660;Bogfinke;"Fringilla coelebs";"Common Chaffinch";A;art
+16380;7670;Kvækerfinke;"Fringilla montifringilla";Brambling;A;art
+16388;7680;Bogfinke/Kvækerfinke;"Fringilla coelebs/F. montifringilla";"Common Chaffinch/Brambling";H;ubestemt
+16389;7690;"Finke sp.";Fringillidae;"Fringillidae sp.";H;ubestemt
+17170;7700;Kernebider;"Coccothraustes coccothraustes";Hawfinch;A;art
+16990;7710;Krognæb;"Pinicola enucleator";"Pine Grosbeak";AU;art
+17100;7720;Dompap;"Pyrrhula pyrrhula";"Eurasian Bullfinch";A;art
+17101;7730;"Dompap, Stor (ssp. pyrrhula)";"Pyrrhula pyrrhula pyrrhula";"Eurasian Bullfinch (ssp. pyrrhula)";A;underart
+17102;7740;"Dompap, Lille (ssp. europaea)";"Pyrrhula pyrrhula europaea";"Eurasian Bullfinch (ssp. europaea)";A;underart
+16760;7750;Ørkendompap;"Bucanetes githagineus";"Trumpeter Finch";AU;art
+16790;7760;Karmindompap;"Carpodacus erythrinus";"Common Rosefinch";A;art
+17040;7770;"Langhalet Rosenfinke";"Carpodacus sibiricus";"Long-tailed Rosefinch";EU;art
+16890;7780;Rosenfinke;"Carpodacus roseus";"Pallas's Rosefinch";E;art
+16490;7790;Grønirisk;"Chloris chloris";"European Greenfinch";A;art
+16500;7800;Brunirisk;"Chloris sinica";"Grey-capped Greenfinch";E;art
+16740;7810;Ørkenfinke;"Rhodospiza obsoleta";"Desert Finch";E;art
+16620;7820;Bjergirisk;"Linaria flavirostris";Twite;A;art
+16600;7830;Tornirisk;"Linaria cannabina";"Common Linnet";A;art
+16609;7840;Tornirisk/Bjergirisk;"Linaria cannabina/L. flavirostris";"Common Linnet/Twite";H;ubestemt
+16630;7880;Gråsisken;"Acanthis flammea";Redpoll;A;art
+16634;7881;"Gråsisken, Nordlig (ssp. flammea)";"Acanthis flammea flammea";"Redpoll (ssp. flammea)";A;underart
+16635;7882;"Gråsisken, Lille (ssp. cabaret)";"Acanthis flammea cabaret";"Redpoll (ssp. cabaret)";A;underart
+16632;7885;"Gråsisken, Grønlandsk (ssp. rostrata)";"Acanthis flammea rostrata";"Redpoll (ssp. rostrata)";AU;underart
+16640;7890;"Gråsisken, Hvidsisken (ssp. exilipes)";"Acanthis flammea exilipes";"Redpoll, Arctic (ssp. exilipes)";AS;underart
+16649;7900;"Sisken sp.";"Spinus/Acanthis sp.";"Spinus/Acanthis sp.";H;ubestemt
+16680;7910;"Stor Korsnæb";"Loxia pytyopsittacus";"Parrot Crossbill";AS;art
+16660;7920;"Lille Korsnæb";"Loxia curvirostra";"Red Crossbill";A;art
+16669;7930;"Lille Korsnæb/Stor Korsnæb";"Loxia curvirostra/L. pytyopsittacus";"Red Crossbill/Parrot Crossbill";H;ubestemt
+16689;7940;"Korsnæb sp.";"Loxia sp.";"Crossbill sp.";H;ubestemt
+16650;7950;"Hvidvinget Korsnæb";"Loxia leucoptera";"Two-barred Crossbill";AS;art
+16530;7960;Stillits;"Carduelis carduelis";"European Goldfinch";A;art
+16400;7970;Gulirisk;"Serinus serinus";"European Serin";AS;art
+16420;7980;Kanariefugl;"Serinus canaria";"Atlantic Canary";E;art
+16540;7990;Grønsisken;"Spinus spinus";"Eurasian Siskin";A;art
+18470;8000;Lapværling;"Calcarius lapponicus";"Lapland Longspur";A;art
+18500;8010;Snespurv;"Plectrophenax nivalis";"Snow Bunting";A;art
+18479;8020;Lapværling/Snespurv;"Calcarius lapponicus/Plectrophenax nivalis";"Lapland Longspur/Snow Bunting";H;ubestemt
+18820;8030;Bomlærke;"Emberiza calandra";"Corn Bunting";A;art
+18570;8040;Gulspurv;"Emberiza citrinella";Yellowhammer;A;art
+18560;8050;"Hvidkindet Værling";"Emberiza leucocephalos";"Pine Bunting";AU;art
+18600;8060;Klippeværling;"Emberiza cia";"Rock Bunting";AU;art
+18670;8065;Bjerghortulan;"Emberiza buchanani";"Grey-necked Bunting";U;art
+18650;8070;"Gulgrå Værling";"Emberiza cineracea";"Cinereous Bunting";AU;art
+18660;8080;Hortulan;"Emberiza hortulana";"Ortolan Bunting";AS;art
+18580;8090;Gærdeværling;"Emberiza cirlus";"Cirl Bunting";AU;art
+18740;8100;Dværgværling;"Emberiza pusilla";"Little Bunting";AS;art
+18710;8110;"Gulbrynet Værling";"Emberiza chrysophrys";"Yellow-browed Bunting";AU;art
+18819;8120;"Værling sp.";"Emberiza sp.";"Bunting sp.";H;ubestemt
+18730;8130;Pileværling;"Emberiza rustica";"Rustic Bunting";AU;art
+18760;8140;"Gulbrystet Værling";"Emberiza aureola";"Yellow-breasted Bunting";AU;art
+18810;8150;Hætteværling;"Emberiza melanocephala";"Black-headed Bunting";AU;art
+18809;8160;"Brunhovedet Værling/Hætteværling";"Emberiza bruniceps/E. melanocephala";"Red-headed Bunting/Black-headed Bunting";HU;ubestemt
+18800;8170;"Brunhovedet Værling";"Emberiza bruniceps";"Red-headed Bunting";AU;art
+18770;8180;Rørspurv;"Emberiza schoeniclus";"Common Reed Bunting";A;art
+18420;8190;"Mørkøjet Junco";"Junco hyemalis";"Dark-eyed Junco";AU;art
+18390;8195;"Hvidkronet Spurv";"Zonotrichia leucophrys";"White-crowned Sparrow";AU;art
+18400;8200;"Hvidstrubet Spurv";"Zonotrichia albicollis";"White-throated Sparrow";AU;art
+17330;8210;"Gul Sanger";"Setophaga aestiva";"American Yellow Warbler";AU;art
+17530;8220;"Stribet Sanger";"Setophaga striata";"Blackpoll Warbler";AU;art
+18870;8230;"Rosenbrystet Kernebider";"Pheucticus ludovicianus";"Rose-breasted Grosbeak";AU;art
+18920;8240;Indigofinke;"Passerina cyanea";"Indigo Bunting";DU;art
+19999;8250;"Småfugl sp. (Pibere, Finker, Spurve o.lign.)";Passerinae;"Passerine sp.";H;ubestemt
+24997;8260;"Burfugl sp.";"Cage bird sp.";"Cage bird sp.";H;ubestemt
+99999;8270;"Ny fugleart for landet";"Aves sp.";"New bird species for Denmark";HU;ubestemt
+24998;8280;"Hybrid sp.";Hybrid;Hybrid;H;hybrid
+AM001;8290;"Lille Vandsalamander";"Triturus vulgaris";"Common Newt";X;andre_dyr
+AM002;8300;"Stor Vandsalamander";"Triturus cristatus";"Great Crested Newt";X;andre_dyr
+AM003;8310;Bjergsalamander;"Triturus alpestris";"Alpine Newt";X;andre_dyr
+AM004;8320;Klokkefrø;"Bombina bombina";"Fire-bellied Toad";X;andre_dyr
+AM005;8330;Løgfrø;"Pelobates fuscus";"Common Spadefoot";X;andre_dyr
+AM006;8340;Skrubtudse;"Bufo bufo";"Common Toad";X;andre_dyr
+AM007;8350;"Grønbroget Tudse";"Bufo viridis";"Green Toad";X;andre_dyr
+AM008;8360;Strandtudse;"Bufo calamita";Natterjack;X;andre_dyr
+AM009;8370;Løvfrø;"Hyla arborea";"Common Tree Frog";X;andre_dyr
+AM010;8380;"Butsnudet Frø";"Rana temporaria";"Common Frog";X;andre_dyr
+AM011;8390;"Spidssnudet Frø";"Rana arvalis";"Moor Frog";X;andre_dyr
+AM012;8400;Springfrø;"Rana dalmatina";"Agile Frog";X;andre_dyr
+AM013;8410;"Grøn Frø";"Rana esculenta";"Edible Frog";X;andre_dyr
+AM014;8420;Latterfrø;"Rana ridibunda";"Marsh Frog";X;andre_dyr
+AM015;8430;Balkanlatterfrø;"Pelophylax kurtmuelleri";"Balkan frog";X;andre_dyr
+AM069;8440;"Salamander sp.";Salamandridae;"Newt sp.";X;andre_dyr
+AM079;8450;"Springpadder sp.";Salientia;"Frogs and Toads sp.";X;andre_dyr
+AM087;8460;"Butsnudet/Spidssnudet/Springfrø sp.";"Rana temporaria/arvalis/dalmatina sp.";"Common/Moor/Agile Frog sp.";X;andre_dyr
+AM088;8470;"Tudse sp.";Bufonidae;"Toad sp.";X;andre_dyr
+AM089;8480;"Ægte Frø sp.";Ranidae;"Frog sp.";X;andre_dyr
+AM113;8490;"Grøn Frø han/Latterfrø hun";"Rana esculenta/R. ridibunda";"Edible Frog male/Marsh Frog female";X;andre_dyr
+LE001;8500;"Gråbåndet Bredpande";"Erynnis tages";"Dinky Skipper";X;andre_dyr
+LE002;8510;"Spættet Bredpande";"Pyrgus malvae";"Grizzled Skipper";X;andre_dyr
+LE003;8520;"Fransk Bredpande";"Pyrgus armoricanus";"Oberthürs Grizzled Skipper";X;andre_dyr
+LE004;8530;Skærbredpande;"Pyrgus serratulae";"Olive Skipper";X;andre_dyr
+LE005;8540;"Sortplettet Bredpande";"Carterocephalus silvicola";"Northern Chequered Skipper";X;andre_dyr
+LE006;8550;Spejlbredpande;"Heteropterus morpheus";"Large Chequered Skipper";X;andre_dyr
+LE007;8560;Stregbredpande;"Thymelicus lineola";"Essex Skipper";X;andre_dyr
+LE008;8570;Skråstregbredpande;"Thymelicus sylvestris";"Small Skipper";X;andre_dyr
+LE009;8580;Kommabredpande;"Hesperia comma";"Silver-spotted Skipper";X;andre_dyr
+LE010;8590;"Stor Bredpande";"Ochlodes faunus";"Large Skipper";X;andre_dyr
+LE263;8600;Marmorbredpande;"Carcharodus alceae";"Mallow Skipper";X;andre_dyr
+LE011;8610;Apollo;"Parnassius apollo";Apollo;X;andre_dyr
+LE012;8620;Mnemosyne;"Parnassius mnemosyne";"Clouded Apollo";X;andre_dyr
+LE013;8630;Svalehale;"Papilio machaon";Swallowtail;X;andre_dyr
+LE014;8640;Skovhvidvinge;"Leptidea sinapsis";"Wood White";X;andre_dyr
+LE015;8650;"Sortåret Hvidvinge";"Aporia crataegi";"Black-veined White";X;andre_dyr
+LE016;8660;"Stor Kålsommerfugl";"Pieris brassicae";"Large White";X;andre_dyr
+LE017;8670;"Lille Kålsommerfugl";"Pieris rapae";"Small White";X;andre_dyr
+LE018;8680;"Grønåret Kålsommerfugl";"Pieris napi";"Green-veined White";X;andre_dyr
+LE019;8690;"Grønbroget Kålsommerfugl";"Pontia edusa";"Bath White";X;andre_dyr
+LE020;8700;Aurora;"Anthocharis cardamines";"Orange Tip";X;andre_dyr
+LE021;8710;Mosehøsommerfugl;"Colias palaeno";"Moorland Clouded Yellow";X;andre_dyr
+LE022;8720;"Gul Høsommerfugl";"Colias hyale";"Pale Clouded Yellow";X;andre_dyr
+LE023;8730;"Sydlig Høsommerfugl";"Colias alfacariensis";"Bergers Clouded Yellow";X;andre_dyr
+LE024;8740;"Orange Høsommerfugl";"Colias croceus";"Clouded Yellow";X;andre_dyr
+LE025;8750;Citronsommerfugl;"Gonepteryx rhamni";Brimstone;X;andre_dyr
+LE026;8760;Monark;"Danaus plexippus";Monarch;X;andre_dyr
+LE027;8770;Iris;"Apatura iris";"Purple Emperor";X;andre_dyr
+LE028;8780;Poppelsommerfugl;"Limenitis populi";"Poplar Admiral";X;andre_dyr
+LE029;8790;"Hvid Admiral";"Limenitis camilla";"White Admiral";X;andre_dyr
+LE030;8800;Kirsebærtakvinge;"Nymphalis polychloros";"Large Tortoiseshell";X;andre_dyr
+LE031;8810;"Østlig Takvinge";"Nymphalis xanthomelas";"Yellow-legged Tortoiseshell";X;andre_dyr
+LE032;8820;"Det Hvide L";"Nymphalis vaualbum";"False Comma";X;andre_dyr
+LE033;8830;Sørgekåbe;"Nymphalis antiopa";"Camberwell Beauty";X;andre_dyr
+LE034;8840;Dagpåfugleøje;"Inachis io";"Peacock Butterfly";X;andre_dyr
+LE035;8850;Admiral;"Vanessa atalanta";"Red Admiral";X;andre_dyr
+LE036;8860;Tidselsommerfugl;"Vanessa cardui";"Painted Lady";X;andre_dyr
+LE037;8870;"Nældens Takvinge";"Aglais urticae";"Small Tortoiseshell";X;andre_dyr
+LE038;8880;"Det Hvide C";"Polygonia c-album";"Comma Butterfly";X;andre_dyr
+LE039;8890;Nældesommerfugl;"Araschnia levana";"Map Butterfly";X;andre_dyr
+LE040;8900;Kejserkåbe;"Argynnis paphia";"Silver-washed Fritillary";X;andre_dyr
+LE041;8910;"Østlig Perlemorsommerfugl";"Argynnis laodice";"Pallas Fritillary";X;andre_dyr
+LE042;8920;Markperlemorsommerfugl;"Argynnis aglaja";"Dark Green Fritillary";X;andre_dyr
+LE043;8930;Skovperlemorsommerfugl;"Argynnis adippe";"High Brown Fritillary";X;andre_dyr
+LE044;8940;Klitperlemorsommerfugl;"Argynnis niobe";"Niobe Fritillary";X;andre_dyr
+LE045;8950;"Storplettet Perlemorsommerfugl";"Issoria lathonia";"Queen of Spain Fritillary";X;andre_dyr
+LE046;8960;Engperlemorsommerfugl;"Brenthis ino";"Lesser Marbled Fritillary";X;andre_dyr
+LE047;8970;Moseperlemorsommerfugl;"Boloria aquilonaris";"Cranberry Fritillary";X;andre_dyr
+LE048;8980;"Brunlig Perlemorsommerfugl";"Boloria selene";"Small Pearl-bordered Fritillary";X;andre_dyr
+LE049;8990;"Rødlig Perlemorsommerfugl";"Boloria euphrosyne";"Pearl-bordered Fritillary";X;andre_dyr
+LE050;9000;"Okkergul Pletvinge";"Melitaea cinxia";"Glanville Fritillary";X;andre_dyr
+LE051;9010;"Mørk Pletvinge";"Melitaea diamina";"False Heath Fritillary";X;andre_dyr
+LE052;9020;"Brun Pletvinge";"Mellicta athalia";"Heath Fritillary";X;andre_dyr
+LE053;9030;Askepletvinge;"Euphydryas maturna";"Scarce Fritillary";X;andre_dyr
+LE054;9040;Hedepletvinge;"Euphydryas aurinia";"Marsh Fritillary";X;andre_dyr
+LE055;9050;Sandrandøje;"Hipparchia semele";Grayling;X;andre_dyr
+LE056;9060;Skov-bjergrandøje;"Erebia ligea";"Arran Brown";X;andre_dyr
+LE057;9070;Græsrandøje;"Maniola jurtina";"Meadow Brown";X;andre_dyr
+LE058;9080;Engrandøje;"Aphantopus hyperantus";Ringlet;X;andre_dyr
+LE059;9090;Buskrandøje;"Pyronia tithonus";Gatekeeper;X;andre_dyr
+LE060;9100;Moserandøje;"Coenonympha tullia";"Large Heath";X;andre_dyr
+LE061;9110;"Okkergul Randøje";"Coenonympha pamphilus";"Small Heath";X;andre_dyr
+LE062;9120;Perlemorrandøje;"Coenonympha arcania";"Pearly Heath";X;andre_dyr
+LE063;9130;Herorandøje;"Coenonympha hero";"Scarce Heath";X;andre_dyr
+LE064;9140;Skovrandøje;"Pararge aegeria";"Speckled Wood";X;andre_dyr
+LE065;9150;Vejrandøje;"Lasiommata megera";"Wall Brown";X;andre_dyr
+LE066;9160;Skov-vejrandøje;"Lasiommata maera";"Large Wall Brown";X;andre_dyr
+LE067;9170;Bjerg-vejrandøje;"Lasiommata petropolitana";"Northern Wall Brown";X;andre_dyr
+LE264;9180;Skakbrætrandøje;"Melanargia galathea";"Marbled White";X;andre_dyr
+LE068;9190;Terningsommerfugl;"Hamearis lucina";"Duke  of Burgundy";X;andre_dyr
+LE069;9200;Guldhale;"Thecla betulae";"Brown Hairstreak";X;andre_dyr
+LE070;9210;Blåhale;"Neozephyrus quercus";"Purple Hairstreak";X;andre_dyr
+LE071;9220;"Det Hvide W";"Satyrium w-album";"White-letter Hairstreak";X;andre_dyr
+LE072;9230;Egesommerfugl;"Satyrium ilicis";"Ilex Hairstreak";X;andre_dyr
+LE073;9240;Slåensommerfugl;"Satyrium pruni";"Black Hairstreak";X;andre_dyr
+LE074;9250;"Grøn Busksommerfugl";"Callophrys rubi";"Green Hairstreak";X;andre_dyr
+LE075;9260;"Lille Ildfugl";"Lycaena phlaeas";"Small Copper";X;andre_dyr
+LE076;9270;"Stor Ildfugl";"Lycaena dispar";"Large Copper";X;andre_dyr
+LE077;9280;Dukatsommerfugl;"Lycaena virgaureae";"Scarce Copper";X;andre_dyr
+LE078;9290;"Sort Ildfugl";"Lycaena tityrus";"Sooty Copper";X;andre_dyr
+LE079;9300;"Violet Ildfugl";"Lycaena alciphron";"Purple-shot Copper";X;andre_dyr
+LE080;9310;"Violetrandet Ildfugl";"Lycaena hippothoe";"Purple-edged Copper";X;andre_dyr
+LE081;9320;Dværgblåfugl;"Cupido minimus";"Little Blue";X;andre_dyr
+LE082;9330;Skovblåfugl;"Celastrina argiolus";"Holly Blue";X;andre_dyr
+LE083;9340;Kløverblåfugl;"Glaucopsyche alexis";"Green-underside Blue";X;andre_dyr
+LE084;9350;Ensianblåfugl;"Maculinea alcon";"Alcon Blue";X;andre_dyr
+LE085;9360;"Sortplettet Blåfugl";"Maculinea arion";"Large Blue";X;andre_dyr
+LE086;9370;Engblåfugl;"Polyommatus semiargus";"Mazarine Blue";X;andre_dyr
+LE087;9380;"Almindelig Blåfugl";"Polyommatus icarus";"Common Blue";X;andre_dyr
+LE088;9390;Isblåfugl;"Polyommatus amandus";"Amandas Blue";X;andre_dyr
+LE089;9400;"Rødplettet Blåfugl";"Aricia agestis";"Brown Argus";X;andre_dyr
+LE090;9410;"Sortbrun Blåfugl";"Aricia artaxerxes";"Mountain Argus";X;andre_dyr
+LE091;9420;Bølleblåfugl;"Plebeius optilete";"Cranberry Blue";X;andre_dyr
+LE092;9430;Argusblåfugl;"Plebeius argus";"Silver-studded Blue";X;andre_dyr
+LE093;9440;"Foranderlig Blåfugl";"Plebeius idas";"Idas Blue";X;andre_dyr
+LE094;9450;Ilia;"Apatura ilia";"Lesser Purple Emperor";X;andre_dyr
+LE199;9460;"Sommerfugl sp.";Lepidoptera;"Butterflies sp.";X;andre_dyr
+LE200;9470;"Seksplettet Køllesværmer";"Zygaena filipendulae";"Six-spot Blue";X;andre_dyr
+LE266;9480;Engkøllesværmer;"Zygaena trifolii";"Five-spot Burnet";X;andre_dyr
+LE267;9490;"Femplettet Køllesværmer";"Zygaena lonicerae";"Narrow-bordered Five-spot Burnet";X;andre_dyr
+LE268;9500;"Kobberbrun Køllesværmer";"Rhagades pruni";"Blackthorn Aurora Moth";X;andre_dyr
+LE269;9510;"Lille Køllesværmer";"Zygaena viciae";"New Forest Burnet";X;andre_dyr
+LE265;9520;Timiankøllesværmer;"Zygaena purpuralis";"Transparent Burnet";X;andre_dyr
+LE270;9530;Pimpinellekøllesværmer;"Zygaena minos";"Minos Burnet";X;andre_dyr
+LE201;9540;Metalvinge;"Adscita statices";"The Forester";X;andre_dyr
+LE202;9550;Egespinder;"Lasiocampa quercus";"Oak Eggar";X;andre_dyr
+LE203;9560;Græsspinder;"Euthrix potatoria";"The Drinker";X;andre_dyr
+LE204;9570;Brombærspinder;"Macrothylacia rubi";"Fox Moth";X;andre_dyr
+LE205;9580;Fyrrespinder;"Dendrolimus pini";"Pine-tree lapet";X;andre_dyr
+LE206;9590;Ringspinder;"Malacosoma neustria";"The Lackey";X;andre_dyr
+LE207;9600;Poppelspinder;"Poecilocampa populi";"December Moth";X;andre_dyr
+LE208;9610;"Lille Natpåfugleøje";"Saturnia pavonia";"Emperor Moth";X;andre_dyr
+LE209;9620;Sømplet;"Aglia tau";"Tau Emperor";X;andre_dyr
+LE210;9630;Lindesværmer;"Mimas tiliae";"Lime Hawk-moth";X;andre_dyr
+LE211;9640;Poppelsværmer;"Laothoe populi";"Poplar Hawk-moth";X;andre_dyr
+LE212;9650;Fyrresværmer;"Hyloicus pinastri";"Pine Hawk-moth";X;andre_dyr
+LE213;9660;Aftenpåfugleøje;"Smerinthus ocellata";"Eyed Hawk-moth";X;andre_dyr
+LE214;9670;Ligustersværmer;"Sphinx ligustri";"Prived Hawk-moth";X;andre_dyr
+LE215;9680;Snerlesværmer;"Agrius convolvuli";"Convolvulus Hawk-moth";X;andre_dyr
+LE216;9690;Dødningehoved;"Acherontia atropos";"Deaths-head Hawk-moth";X;andre_dyr
+LE217;9700;Oleandersværmer;"Daphnis nerii";"Oleander Hawk-moth";X;andre_dyr
+LE218;9710;Vortemælksværmer;"Hyles euphorbiae";"Spurge Hawk-moth";X;andre_dyr
+LE219;9720;Snerresværmer;"Hyles gallii";"Bedstraw Hawk-moth";X;andre_dyr
+LE220;9730;Dueurtsværmer;"Deilephila elpenor";"Elephant Hawk-moth";X;andre_dyr
+LE221;9740;"Lille Vinsværmer";"Deilephila porcellus";"Small Elephant Hawk-moth";X;andre_dyr
+LE222;9750;Humlebisværmer;"Hemaris fuciformis";"Broad-bordered Bee Hawk-moth";X;andre_dyr
+LE223;9760;Duehale;"Macroglossum stellatarum";"Hummingbird Hawk-moth";X;andre_dyr
+LE224;9770;Hermelinskåbe;"Cerura vinula";"Puss Moth";X;andre_dyr
+LE225;9780;Bøgespinder;"Stauropus fagi";"Lobster Moth";X;andre_dyr
+LE226;9790;Måneplet;"Phalera bucephala";Buff-tip;X;andre_dyr
+LE227;9800;"Lille Måneplet";"Clostera curtula";Chocolate-tip;X;andre_dyr
+LE228;9810;Porcelænsspinder;"Pheosia tremula";"Swallow Prominent";X;andre_dyr
+LE229;9820;Zigzagspinder;"Eligmodonta ziczac";"Pebble Prominent";X;andre_dyr
+LE230;9830;Kamelspinder;"Ptilodon capucina";"Coxcomb Prominent";X;andre_dyr
+LE231;9840;Bøgenonne;"Calliteara pudibunda";"Pale Tussock";X;andre_dyr
+LE232;9850;"Lille Penselspinder";"Orgyia antiqua";"The Vapourer";X;andre_dyr
+LE233;9860;Gulhale;"Euproctis similis";Yellow-tail;X;andre_dyr
+LE234;9870;Nonne;"Lymantria monacha";"Black Arches";X;andre_dyr
+LE235;9880;"Brun Bjørnespinder";"Arctia caja";"Garden Tiger";X;andre_dyr
+LE236;9890;Skovbjørn;"Parasemia plantaginis";"Wood Tiger";X;andre_dyr
+LE237;9900;Jomfrubjørn;"Callimorpha dominula";"Scarlet Tiger";X;andre_dyr
+LE238;9910;Kanelbjørn;"Phragmatobia fuliginosa";"Ruby Tiger";X;andre_dyr
+LE239;9920;"Hvid Tigerspinder";"Spilosoma lubricipeda";"White Ermine";X;andre_dyr
+LE240;9930;"Gul Tigerspinder";"Spilosoma lutea";"Buff Ermine";X;andre_dyr
+LE241;9940;"Grå Tigerspinder";"Diaphora mendica";"Muslin Moth";X;andre_dyr
+LE242;9950;Smutugle;"Noctua pronuba";"Large Yellow Underwing";X;andre_dyr
+LE243;9960;"Gul Båndugle";"Noctua fimbriata";"Broad-bordered Yellow Underwing";X;andre_dyr
+LE244;9970;"Violetgrå Båndugle";"Noctua janthina";"Lesser Broad-bordered Yellow Underwing";X;andre_dyr
+LE245;9980;Lyngugle;"Anarta myrtilli";"Beautiful Yellow Underwing";X;andre_dyr
+LE246;9990;"Rødt Ordensbånd";"Catocala nupta";"Red Underwing";X;andre_dyr
+LE271;9995;"Blåt Ordensbånd";"Catocala fraxini";"Blue Underwing";X;andre_dyr
+LE247;10000;Gammaugle;"Autographa gamma";"Silver Y";X;andre_dyr
+LE248;10010;Skræpperodæder;"Triodia sylvina";"Orange Swift";X;andre_dyr
+LE249;10020;Konvalrodæder;"Pharmacis lupulina";"Common Swift";X;andre_dyr
+LE250;10030;Blodplet;"Tyria jacobaeae";"Cinnabar Moth";X;andre_dyr
+LE251;10040;"Okkergul Bladmåler";"Camptogramma bilineata";"Yellow Shell";X;andre_dyr
+LE252;10050;Hvidvingemåler;"Siona lineata";"Black-veined Moth";X;andre_dyr
+LE253;10060;"Sort Måler";"Odezia atrata";"Chimney Sweeper";X;andre_dyr
+LE254;10070;Syremåler;"Timandra comae";Blood-vein;X;andre_dyr
+LE255;10080;Vinkelengmåler;"Idaea aversata";"Riband Wave";X;andre_dyr
+LE256;10090;"Almindelig Spidsvingemåler";"Scotopteryx chenopodiata";"Shaded Broad-bar";X;andre_dyr
+LE257;10100;Frugttræ-Barkmåler;"Peribatodes rhomboidaria";"Willow Beauty";X;andre_dyr
+LE258;10110;Natsvalehale;"Ourapteryx sambucaria";"Swallow-tailed Moth";X;andre_dyr
+LE259;10120;Rodugle;"Apamea monoglypha";"Dark Arches";X;andre_dyr
+LE260;10130;Agatugle;"Phlogophora meticulosa";"Angle Shades";X;andre_dyr
+LE261;10140;Næbugle;"Hypena proboscidalis";"The Snout";X;andre_dyr
+LE262;10150;Husmoderugle;"Scoliopteryx libatrix";"The Herald";X;andre_dyr
+LE309;10160;"Sommerfugl/Natsværmer sp.";Lepidoptera;"Butterflies and Moths sp.";X;andre_dyr
+MA001;10170;Pindsvin;"Erinaceus europaeus";Hedgehog;X;andre_dyr
+MA002;10180;Muldvarp;"Talpa europaea";"European Mole";X;andre_dyr
+MA003;10190;"Almindelig Spidsmus";"Sorex araneus";"Eurasian Common Shrew";X;andre_dyr
+MA004;10200;Dværgspidsmus;"Sorex minutus";"Eurasian Pygmy Shrew";X;andre_dyr
+MA005;10210;Vandspidsmus;"Neomys fodiens";"Eurasian Water Shrew";X;andre_dyr
+MA085;10220;"Hvidtandet Spidsmus";"Crocidura suaveolens";"Lesser White-toothed Shrew";X;andre_dyr
+MA006;10230;Brunflagermus;"Nyctalus noctula";Noctule;X;andre_dyr
+MA007;10240;Sydflagermus;"Eptesicus serotinus";Serotine;X;andre_dyr
+MA008;10250;Nordflagermus;"Eptesicus nilssonii";"Northern Bat";X;andre_dyr
+MA009;10260;Skimmelflagermus;"Vespertilio murinus";"Parti-coloured Bat";X;andre_dyr
+MA010;10270;"Langøret Flagermus";"Plecotus auritus";"Brown Long-eared Bat";X;andre_dyr
+MA011;10280;"Bredøret Flagermus";"Barbastella barbastellus";"Western Barbastella";X;andre_dyr
+MA012;10290;"Pipistrelflagermus/Dværgflagermus sp.";"Pipistrellus pipistrellus/P. pygmaeus sp.";"Common Pipistrelle/Soprano Pipistrelle sp.";X;andre_dyr
+MA013;10300;Troldflagermus;"Pipistrellus nathusii";"Nathusius Pipistrelle";X;andre_dyr
+MA014;10310;Frynseflagermus;"Myotis nattereri";"Natterers Bat";X;andre_dyr
+MA015;10320;"Bechsteins Flagermus";"Myotis bechsteinii";"Bechsteins Bat";X;andre_dyr
+MA016;10330;"Brandts Flagermus";"Myotis brandtii";"Brandts Bat";X;andre_dyr
+MA017;10340;Skægflagermus;"Myotis mystacinus";"Whiskered Bat";X;andre_dyr
+MA018;10350;Vandflagermus;"Myotis daubentonii";"Daubentons Bat";X;andre_dyr
+MA019;10360;Damflagermus;"Myotis dasycneme";"Pond Bat";X;andre_dyr
+MA020;10370;Hare;"Lepus europaeus";"Brown Hare";X;andre_dyr
+MA021;10380;Vildkanin;"Oryctolagus cuniculus";Rabbit;X;andre_dyr
+MA086;10385;Sumpbæver;"Myocastor coypus";Coypu;X;andre_dyr
+MA022;10390;Egern;"Sciurus vulgaris";"Red Squirrel";X;andre_dyr
+MA023;10400;Hasselmus;"Muscardinus avellanarius";"Hazel Dormouse";X;andre_dyr
+MA024;10410;Birkemus;"Sicista betulina";"Northern Birch Mouse";X;andre_dyr
+MA025;10420;"Brun Rotte";"Rattus norvegicus";"Brown Rat";X;andre_dyr
+MA026;10430;Husrotte;"Rattus rattus";"Black Rat";X;andre_dyr
+MA027;10440;Husmus;"Mus musculus/domesticus";"House Mouse";X;andre_dyr
+MA028;10450;Halsbåndmus;"Apodemus flavicollis";"Yellow-necked Mouse";X;andre_dyr
+MA029;10460;Skovmus;"Apodemus sylvaticus";"Wood Mouse";X;andre_dyr
+MA030;10470;Brandmus;"Apodemus agrarius";"Striped Field Mouse";X;andre_dyr
+MA031;10480;Dværgmus;"Micromys minutus";"Harvest Mouse";X;andre_dyr
+MA032;10490;Mosegris;"Arvicola terrestris";"European Water Vole";X;andre_dyr
+MA033;10500;Nordmarkmus;"Microtus agrestis";"Field Vole";X;andre_dyr
+MA034;10510;Sydmarkmus;"Microtus arvalis";"Common Vole";X;andre_dyr
+MA035;10520;"Markmus sp.";"Microtus agrestis/arvalis";"Field Vole/Common Vole";X;andre_dyr
+MA036;10530;Rødmus;"Clethrionomys glareolus";"Bank Vole";X;andre_dyr
+MA037;10540;Bisamrotte;"Ondatra zibethicus";"Musk Rat";X;andre_dyr
+MA038;10550;Ræv;"Vulpes vulpes";"Red Fox";X;andre_dyr
+MA039;10560;Grævling;"Meles meles";"Eurasian Badger";X;andre_dyr
+MA040;10570;Husmår;"Martes foina";"Beech Marten";X;andre_dyr
+MA041;10580;Skovmår;"Martes martes";"Pine Marten";X;andre_dyr
+MA042;10590;Ilder;"Mustela putorius";Polecat;X;andre_dyr
+MA043;10600;Mink;"Mustela vison";"American Mink";X;andre_dyr
+MA044;10610;Lækat;"Mustela erminea";Stoat;X;andre_dyr
+MA045;10620;Brud;"Mustela nivalis";Weasel;X;andre_dyr
+MA046;10630;Odder;"Lutra lutra";"European Otter";X;andre_dyr
+MA047;10640;Kat;"Felis catus";"Domestic Cat";X;andre_dyr
+MA048;10650;Vaskebjørn;"Procyon lotor";Racoon;X;andre_dyr
+MA049;10660;Mårhund;"Nyctereutes procyonoides";Racoon-dog;X;andre_dyr
+MA050;10670;"Spættet Sæl";"Phoca vitulina";"Common Seal";X;andre_dyr
+MA051;10680;Gråsæl;"Halichoerus grypus";"Grey Seal";X;andre_dyr
+MA052;10690;Ringsæl;"Phoca hispida";"Ringed Seal";X;andre_dyr
+MA053;10700;Klapmyds;"Cystophora cristata";"Hooded Seal";X;andre_dyr
+MA054;10710;Grønlandssæl;"Phoca groenlandica";Saddleback;X;andre_dyr
+MA055;10720;Hvalros;"Odobenus rosmarus";Walrus;X;andre_dyr
+MA056;10730;Marsvin;"Phocoena phocoena";"Common Porpoise";X;andre_dyr
+MA057;10740;Hvidnæse;"Lagenorhynchus albirostris";"White-beaked Porpoise";X;andre_dyr
+MA058;10750;Hvidskæving;"Lagenorhynchus acutus";"White-sided Porpoise";X;andre_dyr
+MA059;10760;Grindehval;"Globicephala melas";"Pilot Whale";X;andre_dyr
+MA060;10770;Spækhugger;"Orcinus orca";"Killer Whale";X;andre_dyr
+MA061;10780;Halvspækhugger;"Pseudorca crassidens";"False Killer Whale";X;andre_dyr
+MA062;10790;"Rissos Delfin (Halvgrindehval)";"Grampus griseus";"Rissos Dolphin";X;andre_dyr
+MA063;10800;Øresvin;"Tursiops truncatus";"Bottle-nosed Dolphin";X;andre_dyr
+MA064;10810;"Almindelig Delfin";"Delphinus delphis";"Common Dolphin";X;andre_dyr
+MA065;10820;Hvidhval;"Delphinapterus leucas";"White Whale";X;andre_dyr
+MA066;10830;Døgling;"Hyperoodon ampullatus";"Northern Bottlenose Whale";X;andre_dyr
+MA067;10840;"Almindelig Næbhval";"Mesoplodon bidens";"Sowerbys Beaked Whale";X;andre_dyr
+MA068;10850;Kaskelot;"Physeter macrocephalus";Spermwhale;X;andre_dyr
+MA069;10860;Vågehval;"Balaenoptera acutorostrata";"Piked Whale";X;andre_dyr
+MA070;10870;Blåhval;"Balaenoptera musculus";"Blue Whale";X;andre_dyr
+MA071;10880;Finhval;"Balaenoptera physalus";"Fin Whale";X;andre_dyr
+MA072;10890;Sejhval;"Balaenoptera borealis";"Sei Whale";X;andre_dyr
+MA073;10900;Pukkelhval;"Megaptera novaeangliae";"Humpback Whale";X;andre_dyr
+MA074;10910;Vildsvin;"Sus scrofa";"Wild Boar";X;andre_dyr
+MA075;10920;Krondyr;"Cervus elaphus";"Red Deer";X;andre_dyr
+MA076;10930;Dådyr;"Dama dama";"Fallow Deer";X;andre_dyr
+MA077;10940;Sika;"Cervus nippon";"Sika Deer";X;andre_dyr
+MA078;10950;Rådyr;"Capreolus capreolus";"Roe Deer";X;andre_dyr
+MA084;10960;Muflon;"Ovis ammon";Argali;X;andre_dyr
+MA079;10970;Bæver;"Castor fiber";Beaver;X;andre_dyr
+MA080;10980;Elg;"Alces alces";Moose;X;andre_dyr
+MA081;10990;Los;"Felis lynx";Lynx;X;andre_dyr
+MA082;11000;Ulv;"Canis lupus";Wolf;X;andre_dyr
+MA083;11010;Guldsjakal;"Canis aureus";"Golden Jackal";X;andre_dyr
+MA109;11020;"Insektædere sp.";Insectivora;"Insectivores sp.";X;andre_dyr
+MA119;11030;"Spidsmus sp.";Soricidae;"Shrews sp.";X;andre_dyr
+MA129;11040;"Flagermus sp.";Chiroptera;"Bats sp.";X;andre_dyr
+MA139;11050;"Gnaver sp.";Rodentia;"Rodents sp.";X;andre_dyr
+MA149;11060;"Ægte Mus sp.";Muridae;"Typical Mice and Rats";X;andre_dyr
+MA159;11070;"Studsmus sp.";Microtidae;"Voles sp.";X;andre_dyr
+MA168;11080;Skovmår/Husmår;"Martes martes/M. foina";"Pine/Beech Marten";X;andre_dyr
+MA169;11090;"Mårdyr sp.";Mustelidae;"Weasel, Mink, Badger, Marten, Otter sp.";X;andre_dyr
+MA179;11100;"Sæl sp.";Pinnipedia;"Seal sp.";X;andre_dyr
+MA189;11110;"Hval sp.";Cetacea;"Whale sp.";X;andre_dyr
+MA199;11120;"Hjort sp.";Cervidae;"Deer sp.";X;andre_dyr
+MA212;11130;Pipistrelflagermus;"Pipistrellus pipistrellus";"Common Pipistrelle";X;andre_dyr
+MA312;11140;Dværgflagermus;"Pipistrellus pygmaeus";"Soprano Pipistrelle";X;andre_dyr
+RE001;11150;Markfirben;"Lacerta agilis";"Sand Lizard";X;andre_dyr
+RE002;11160;"Almindelig Firben";"Lacerta vivipara";"Common Lizard";X;andre_dyr
+RE003;11170;Stålorm;"Anguis fragilis";"Slow Worm";X;andre_dyr
+RE004;11180;Snog;"Natrix natrix";"Grass Snake";X;andre_dyr
+RE005;11190;Glatsnog;"Coronella austriaca";"Smooth Snake";X;andre_dyr
+RE006;11200;Æskulapsnog;"Elaphe longissima";"Aesculapian Snake";X;andre_dyr
+RE007;11210;Hugorm;"Vipera berus";Adder;X;andre_dyr
+RE008;11220;"Europæisk Sumpskildpadde";"Emys orbicularis";"European Pond Turtle";X;andre_dyr
+RE009;11230;Læderskildpadde;"Dermochelys coriacea";"Leatherback Sea Turtle";X;andre_dyr
+RE010;11240;Bastardskildpadde;"Lepidochelys kempii";"Kemps Ridley Sea Turtle";X;andre_dyr
+RE011;11250;"Uægte Karette";"Caretta caretta";"Loggerhead Sea Turtle";X;andre_dyr
+RE012;11260;"Nordamerikansk Terrapin";"Trachemys scripta";"Pond Slider";X;andre_dyr
+RE109;11270;"Firben sp.";Lacertidae;"Lizard sp.";X;andre_dyr
+RE119;11280;"Slange sp.";Serpentes;"Snake sp.";X;andre_dyr
+RE129;11290;"Skildpadde sp.";Testudines;"Turtle sp.";X;andre_dyr

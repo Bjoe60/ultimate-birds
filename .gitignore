@@ -4,6 +4,7 @@ data/output/*
 !data/input/Ultimate Birds - old version.csv
 !data/input/Mnemonics.txt
 !data/input/IOC-DOF_-_NAVNE_P_ALVERDENS_FUGLE_-_20-12-2024.xlsx
+!data/input/dofbasen.csv
 
 # VS Code
 .vscode/

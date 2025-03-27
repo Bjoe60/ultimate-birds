@@ -7,7 +7,8 @@ INPUT_FILES = {
     "audio_files": "data/input/wildlife-sounds-birds-20250207.dwca/Multimedia.txt",
     "audio_data": "data/input/wildlife-sounds-birds-20250207.dwca/Occurrence.txt",
     "notes": "data/input/Ultimate Birds.txt",
-    "danish_translations": "data/input/IOC-DOF_-_NAVNE_P_ALVERDENS_FUGLE_-_20-12-2024.xlsx",
+    "danish_translations_dofbasen": "data/input/dofbasen.csv",
+    "danish_translations_navnegruppen": "data/input/IOC-DOF_-_NAVNE_P_ALVERDENS_FUGLE_-_20-12-2024.xlsx",
 }
 
 IOC_COLUMN = "IOC_15.1"

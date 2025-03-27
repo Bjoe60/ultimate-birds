@@ -42,12 +42,19 @@ def merge_csv_translations(df):
 
 def overwrite_danish_translations(df):
     """
-    Prefer Danish translations from Navnegruppen
+    Prefer Danish translations from dofbasen, then Navnegruppen, then IOC.
     """
-    df_danish = pd.read_excel(INPUT_FILES["danish_translations"], dtype="str", sheet_name="DOF-LDF fil", usecols=["Scientific Name", "Dansk Navn"])
-    df = pd.merge(df, df_danish, left_on="Scientific (IOC)", right_on="Scientific Name", how="left")
+    df_dofbasen = pd.read_csv(INPUT_FILES["danish_translations_dofbasen"], dtype="str", usecols=["Latin", "Artnavn"], sep=";")
+    df_navnegruppen = pd.read_excel(INPUT_FILES["danish_translations_navnegruppen"], dtype="str", sheet_name="DOF-LDF fil", usecols=["Scientific Name", "Dansk Navn"])
+    
+    df_dofbasen = df_dofbasen.rename(columns={"Latin": "Scientific (IOC)", "Artnavn": "Danish_dofbasen"})
+    df_navnegruppen = df_navnegruppen.rename(columns={"Scientific Name": "Scientific (IOC)", "Dansk Navn": "Danish_navnegruppen"})
+    
+    df = pd.merge(df, df_dofbasen, on="Scientific (IOC)", how="left")
+    df = pd.merge(df, df_navnegruppen, on="Scientific (IOC)", how="left")
+
     df["Danish"] = df.apply(
-        lambda row: row["Dansk Navn"] if pd.notna(row["Dansk Navn"]) else row["Danish"], axis=1
+        lambda row: row["Danish_dofbasen"] if pd.notna(row["Danish_dofbasen"]) else row["Danish_navnegruppen"] if pd.notna(row["Danish_navnegruppen"]) else row["Danish"], axis=1
     )
     return df
 
@@ -56,7 +63,7 @@ def merge_translations(base_df):
     Merge translation data from three sources:
       1. Excel file (Multiling IOC ??.?.xlsx)
       2. CSV file (Ultimate Birds - old version.csv)
-      3. Danish translations (IOC-DOF_-_NAVNE_P_ALVERDENS_FUGLE_-_20-12-2024.xlsx)
+      3. Danish translations (dofbasen.csv)
     
     The DataFrame is reindexed to include scientific name and all language columns.
     
@@ -82,4 +89,4 @@ def merge_translations(base_df):
     final_columns = ['Scientific (Clements)'] + LANGUAGES
     df_merged = df_merged.reindex(columns=final_columns)
     
-    df_merged.to_csv(PROCESSED_FILES["translations"], index=False)
+    df_merged.to_csv(PROCESSED_FILES["translations"], index=False, encoding="utf-8")
