@@ -1,4 +1,6 @@
-# ultimate-birds-private
+# ultimate-birds
+
+Code used to generate [Ultimate Birds](https://ankiweb.net/shared/info/331539617).
 
 How to use:
 - Export notes with guid in Anki
