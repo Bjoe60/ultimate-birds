@@ -10,6 +10,7 @@ How to use:
 - Import Ultimate Birds_notes.txt
 - Import Ultimate Birds.csv (new notes)
 - Notes > Clear unused tags
+- Notes > Empty cards
 - Put birds into correct subdecks
 
 Resources:
