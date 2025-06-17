@@ -26,4 +26,5 @@ OUTPUT_FILES = {
     "output_header": "data/output/Ultimate Birds_header.csv",
     "output_notes": "data/output/Ultimate Birds_notes.txt",
     "base_data": "data/output/base_data.csv",
+    "clements_vs_ioc_danish": "data/output/clements_vs_ioc_danish.csv",
 }

@@ -49,7 +49,10 @@ def overwrite_danish_translations(df):
     
     df_dofbasen = df_dofbasen.rename(columns={"Latin": "Scientific (IOC)", "Artnavn": "Danish_dofbasen"})
     df_navnegruppen = df_navnegruppen.rename(columns={"Scientific Name": "Scientific (IOC)", "Dansk Navn": "Danish_navnegruppen"})
-    
+
+    df_dofbasen = df_dofbasen.drop_duplicates(subset=["Scientific (IOC)"], keep="first")
+    df_navnegruppen = df_navnegruppen.drop_duplicates(subset=["Scientific (IOC)"], keep="first")
+
     df = pd.merge(df, df_dofbasen, on="Scientific (IOC)", how="left")
     df = pd.merge(df, df_navnegruppen, on="Scientific (IOC)", how="left")
 
@@ -61,7 +64,7 @@ def overwrite_danish_translations(df):
 def merge_translations(base_df):
     """
     Merge translation data from three sources:
-      1. Excel file (Multiling IOC ??.?.xlsx)
+      1. Excel file (Multiling IOC XX.X.xlsx)
       2. CSV file (Ultimate Birds - old version.csv)
       3. Danish translations (dofbasen.csv)
     
