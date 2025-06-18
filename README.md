@@ -16,6 +16,6 @@ How to use:
 Resources:
 - eBird Taxonomy: https://www.birds.cornell.edu/clementschecklist/introduction/updateindex/
 - IOC Multiligual and comparison with Clements: https://www.worldbirdnames.org/new/ioc-lists/master-list-2/
-- Audio dataset: https://www.gbif.org/dataset/b1047888-ae52-4179-9dd5-5448ea342a24 (source archive AND GBIF annotated archive)
+- Audio dataset: https://www.gbif.org/dataset/b1047888-ae52-4179-9dd5-5448ea342a24 (source archive annotated archive)
 - Danish translations (dofbasen): https://dofbasen.dk/opslag/artdata.php
 - Danish translations (navnegruppen): https://www.dof.dk/aktiv-i-dof/grupper-og-udvalg/navnegruppen/publikationer-navnegruppen
