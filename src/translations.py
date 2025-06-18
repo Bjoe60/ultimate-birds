@@ -4,7 +4,7 @@ from string import capwords
 
 LANGUAGES = ['Afrikaans', 'Albanian', 'Arabic', 'Armenian', 'Azerbaijani', 'Belarusian', 'Bengali', 'Bulgarian', 'Catalan', 'Chinese', 'Chinese (Traditional)', 'Croatian', 'Czech', 'Danish', 'Dutch', 'Estonian', 'Faroese', 'Finnish', 'French', 'Galician', 'Georgian', 'German', 'Greek', 'Hebrew', 'Hungarian', 'Icelandic', 'Indonesian', 'Italian', 'Japanese', 'Kazakh', 'Korean', 'Latvian', 'Lithuanian', 'Macedonian', 'Marathi', 'Malay', 'Maltese', 'Mongolian', 'Nepali', 'Norwegian', 'Persian', 'Polish', 'Portuguese', 'Romanian', 'Russian', 'Serbian', 'Slovak', 'Slovenian', 'Spanish', 'Swahili', 'Swedish', 'Tajik', 'Thai', 'Turkish', 'Ukrainian', 'Uzbek', 'Vietnamese']
 
-def merge_excel_translations(df):
+def merge_ioc_translations(df):
     """
     Merge translation data from the IOC file.
     """
@@ -14,7 +14,7 @@ def merge_excel_translations(df):
     return df
 
 
-def merge_csv_translations(df):
+def merge_old_translations(df):
     """
     Merge additional translation data from the first version where additional
     translations were scraped from Avibase.
@@ -78,10 +78,10 @@ def merge_translations(base_df):
     df = base_df[['English (Clements)', 'Scientific (Clements)', 'English (IOC)', 'Scientific (IOC)']].copy()
 
     # Merge Excel translations.
-    df_merged = merge_excel_translations(df)
+    df_merged = merge_ioc_translations(df)
 
     # Merge additional CSV translations.
-    df_merged = merge_csv_translations(df_merged)
+    df_merged = merge_old_translations(df_merged)
 
     df_merged = overwrite_danish_translations(df_merged)
 
