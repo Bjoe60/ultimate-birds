@@ -11,10 +11,10 @@ def main():
 
     # Optionally run independent processes in any order
     # merge_translations(df)
-    process_mnemonics(df)
+    # process_mnemonics(df)
     # scrape_avibase_data(df)
     # # scrape_images(df)
-    # get_audio(df)
+    get_audio(df)
     
     # Combine results
     # combine_data(df, 'version-2025-11-01')

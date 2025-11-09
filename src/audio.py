@@ -11,28 +11,44 @@ def merge_old_audio(df):
     """
     print('-------- Merging old audio --------')
     df_old = pd.read_csv(INPUT_FILES['old_version'], usecols=['SCI_NAME', 'PRIMARY_COM_NAME', 'English (IOC)', 'SOUNDS'], dtype=str)
-    df_old = df_old.rename(columns={'SCI_NAME': 'Scientific (Clements)', 'PRIMARY_COM_NAME': 'English (Clements)'})
+    df_old = df_old.rename(columns={'SCI_NAME': 'Scientific (Clements)', 'PRIMARY_COM_NAME': 'English (Clements)', 'English (IOC)': 'English (AviList)'})
     df_old['SOUNDS'] = df_old['SOUNDS'].replace('', pd.NA)
 
     # If audio is empty for a species, use the old version
-    # Try merge on both English and Scientific names
-    df = pd.merge(df, df_old, on=['Scientific (Clements)', 'English (Clements)', 'English (IOC)'], how='left', suffixes=('', '_old'))
+    # Try merge on Scientific names first
+    df = pd.merge(df, df_old, on='Scientific (Clements)', how='left', suffixes=('', '_old'))
     df['SOUNDS'] = df.apply(
         lambda row: row['SOUNDS'] if pd.notna(row['SOUNDS']) else row['SOUNDS_old'] if pd.notna(row['SOUNDS_old']) else pd.NA,
         axis=1
     )
     df = df.drop(columns=['SOUNDS_old'])
+
+    # Then try merge on English names for those still missing audio
+    temp_df = pd.merge(
+        df,
+        df_old,
+        on='English (AviList)',
+        how='left',
+        suffixes=('', '_old2')
+    )
+
+    df['SOUNDS'] = df['SOUNDS'].combine_first(temp_df['SOUNDS_old2'])
+
     return df
 
 
 def get_audio(base_df):
     print('-------- Scraping audio --------')
-    df = base_df[['Scientific (Clements)', 'English (Clements)', 'Scientific (IOC)', 'English (IOC)']].copy()
+    df = base_df[['Scientific (Clements)', 'English (Clements)', 'Scientific (AviList)', 'English (AviList)']].copy()
     df['SOUNDS'] = pd.NA
 
     # Load and merge audio datasets
     media_df = pd.read_csv(INPUT_FILES['audio_files'], usecols=['associatedObservationReference', 'format', 'accessURI', 'description', 'caption', 'rightsHolder', 'Rating'], encoding='UTF-8', dtype={'Rating': 'Int64'})
     occurrence_df = pd.read_csv(INPUT_FILES['audio_data'], usecols=['occurrenceID', 'behavior', 'Associated Taxa', 'eventDate', 'vernacularName', 'scientificName'])
+
+    # Remove duplicates
+    occurrence_df = occurrence_df.drop_duplicates(subset=['occurrenceID'], keep='first')
+    media_df = media_df.drop_duplicates()
 
     # Merge audio data on occurrence ID
     merged_audio = pd.merge(media_df, occurrence_df, left_on='associatedObservationReference', right_on='occurrenceID', how='inner')
@@ -49,17 +65,17 @@ def get_audio(base_df):
     def process_species_audio(species_row):
         sci_name = species_row['Scientific (Clements)']
         com_name = species_row['English (Clements)']
-        sci_name_ioc = species_row['Scientific (IOC)']
-        com_name_ioc = species_row['English (IOC)']
+        sci_name_avilist = species_row['Scientific (AviList)']
+        com_name_avilist = species_row['English (AviList)']
         matches = None
         if sci_name in sci_dict:
             matches = sci_dict[sci_name]
         elif com_name in vern_dict:
             matches = vern_dict[com_name]
-        elif sci_name_ioc in sci_dict:
-            matches = sci_dict[sci_name_ioc]
-        elif com_name_ioc in vern_dict:
-            matches = vern_dict[com_name_ioc]
+        elif sci_name_avilist in sci_dict:
+            matches = sci_dict[sci_name_avilist]
+        elif com_name_avilist in vern_dict:
+            matches = vern_dict[com_name_avilist]
         if matches is not None:
             audio_files = matches[matches['format'] == 'audio/mp3']
 
