@@ -13,11 +13,11 @@ def main():
     # merge_translations(df)
     # process_mnemonics(df)
     # scrape_avibase_data(df)
-    # scrape_images(df)
-    get_audio(df)
+    # # scrape_images(df)
+    # get_audio(df)
     
     # Combine results
-    combine_data(df, 'version-2025-03-08')
+    # combine_data(df, 'version-2025-11-01')
 
 
 if __name__ == "__main__":

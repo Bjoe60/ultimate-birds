@@ -174,7 +174,7 @@ def scrape_avibase_data(df_base):
     finally:
         main_driver.quit()
 
-    for link in tqdm(country_links, desc="Processing countries"):
+    for link in tqdm(country_links[:1], desc="Processing countries"):
         process_country(df, link.td.a)
     
     # Save final data

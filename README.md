@@ -11,11 +11,12 @@ How to use:
 - Import Ultimate Birds.csv (new notes)
 - Notes > Clear unused tags
 - Notes > Empty cards
-- Put birds into correct subdecks
+- Move cards into correct subdecks
 
 Resources:
-- eBird Taxonomy: https://www.birds.cornell.edu/clementschecklist/introduction/updateindex/
-- IOC Multiligual and comparison with Clements: https://www.worldbirdnames.org/new/ioc-lists/master-list-2/
-- Audio dataset: https://www.gbif.org/dataset/b1047888-ae52-4179-9dd5-5448ea342a24 (source archive annotated archive)
-- Danish translations (dofbasen): https://dofbasen.dk/opslag/artdata.php
-- Danish translations (navnegruppen): https://www.dof.dk/aktiv-i-dof/grupper-og-udvalg/navnegruppen/publikationer-navnegruppen
+- [eBird Taxonomy](https://www.birds.cornell.edu/clementschecklist/introduction/updateindex/)
+- [eBird Common Names](https://support.ebird.org/en/support/solutions/articles/48000804865-bird-names-in-ebird#download-common-names)
+- [IOC Multiligual and comparison with Clements](https://www.worldbirdnames.org/new/ioc-lists/master-list-2/)
+- [Audio dataset](https://www.gbif.org/dataset/b1047888-ae52-4179-9dd5-5448ea342a24) (source archive annotated archive)
+- [Danish translations (dofbasen)](https://dofbasen.dk/opslag/artdata.php)
+- [Danish translations (navnegruppen)](https://www.dof.dk/aktiv-i-dof/grupper-og-udvalg/navnegruppen/publikationer-navnegruppen)

@@ -85,7 +85,7 @@ def scrape_images(base_df):
     df = base_df[['Scientific (Clements)', 'EBIRD']].copy()
 
     # Process each species one at a time to avoid overloading the site.
-    for idx in tqdm(df.index, desc="Scraping images"):
+    for idx in tqdm(df.index, desc="Scraping images")[:10]:
         scrape_images_for_species(df, idx)
 
     df.drop(columns=['EBIRD'], inplace=True)

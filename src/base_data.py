@@ -1,82 +1,48 @@
 import pandas as pd
-from file_paths import INPUT_FILES, OUTPUT_FILES, IOC_COLUMN
+from file_paths import INPUT_FILES, OUTPUT_FILES
 
-def match_ioc(df):
-    """Primary matching using direct IOC translations"""
-    df_ioc = pd.read_excel(INPUT_FILES['ioc_translations'], usecols=['English', IOC_COLUMN]).rename(columns={
-        'English': 'English (IOC)',
-        IOC_COLUMN: 'Scientific (IOC)'
+def find_matches_on_names(df):
+    """Primary matching using direct AviList translations"""
+    df_avilist = pd.read_excel(INPUT_FILES['avilist_taxonomy'], usecols=['English_name_AviList', 'Scientific_name', 'AvibaseID']).rename(columns={
+        'English_name_AviList': 'English (AviList)',
+        'Scientific_name': 'Scientific (AviList)'
     })
-    
-    # 1. First try direct scientific name match
-    df = pd.merge(
+
+    # 1. First try matching on Avibase ID
+    df['TAXON_CONCEPT_ID'] = df['TAXON_CONCEPT_ID'].str.replace('avibase-avibase', 'avibase', regex=False)
+    df = pd.merge(df, df_avilist, how='left', left_on='TAXON_CONCEPT_ID', right_on='AvibaseID')
+
+    # 2. Then try matching on scientific name
+    temp_df = pd.merge(
         df,
-        df_ioc[['Scientific (IOC)', 'English (IOC)']],
+        df_avilist[['Scientific (AviList)', 'English (AviList)']],
         left_on='Scientific (Clements)',
-        right_on='Scientific (IOC)',
+        right_on='Scientific (AviList)',
         how='left',
         suffixes=('', '_sci')
     )
-    
-    # 2. Then try normalized common name match
+    # Update using the merged columns with '_sci' suffix
+    df['English (AviList)'] = df['English (AviList)'].combine_first(temp_df['English (AviList)_sci'])
+    df['Scientific (AviList)'] = df['Scientific (AviList)'].combine_first(temp_df['Scientific (AviList)_sci'])
+
+
+    # 3. Then try matching on normalized common name
     df['norm_com_name'] = df['English (Clements)'].str.lower().str.replace('gray', 'grey').str.replace("S'S", "S'").str.replace('-', '').str.replace(' ', '')
-    df_ioc['norm_ioc_name'] = df_ioc['English (IOC)'].str.lower().str.replace('-', '').str.replace(' ', '')
-    
+    df_avilist['norm_avilist_name'] = df_avilist['English (AviList)'].str.lower().str.replace('-', '').str.replace(' ', '')
+
     temp_df = pd.merge(
-        df[df['English (IOC)'].isna()].reset_index(),
-        df_ioc,
+        df[df['English (AviList)'].isna()].reset_index(),
+        df_avilist,
         left_on='norm_com_name',
-        right_on='norm_ioc_name',
+        right_on='norm_avilist_name',
         how='left',
         suffixes=('', '_alt')
     ).set_index('index')
 
     # Update using the merged columns with '_alt' suffix
-    df['English (IOC)'] = df['English (IOC)'].combine_first(temp_df['English (IOC)_alt'])
-    df['Scientific (IOC)'] = df['Scientific (IOC)'].combine_first(temp_df['Scientific (IOC)_alt'])
-    
-    return df
+    df['English (AviList)'] = df['English (AviList)'].combine_first(temp_df['English (AviList)_alt'])
+    df['Scientific (AviList)'] = df['Scientific (AviList)'].combine_first(temp_df['Scientific (AviList)_alt'])
 
-def map_clements_ioc(df):
-    """
-    Fallback mapping using Clements-IOC relationships
-    However, this file might not be using latest version of Clements.
-    So both matches on common and scientific names are used.
-    The file also might contain typos for a few species.
-    """
-    df_clements_ioc = pd.read_excel(INPUT_FILES['clements_to_ioc']).rename(columns={
-        'IOC common name': 'English (IOC)',
-        'IOC scientific name': 'Scientific (IOC)',
-        'Clements common name': 'English (Clements)',
-        'Clements scientific name': 'Scientific (Clements)'
-    })
-    
-    # Merge using Clements scientific names as backup
-    df = pd.merge(
-        df,
-        df_clements_ioc,
-        on='Scientific (Clements)',
-        how='left',
-        suffixes=('', '_clements')
-    )
-    
-    # Fill missing IOC data from Clements mappings
-    df['English (IOC)'] = df['English (IOC)'].combine_first(df['English (IOC)_clements'])
-    df['Scientific (IOC)'] = df['Scientific (IOC)'].combine_first(df['Scientific (IOC)_clements'])
-
-    # --- Second Merge: Using English (IOC) / IOC common names for remaining missing ---
-    temp_df_common_name_merge = pd.merge(
-        df[df['English (IOC)'].isna()].reset_index(), # Use only rows with missing 'English (IOC)'
-        df_clements_ioc,
-        on='English (Clements)',
-        how='left',
-        suffixes=('', '_common') # Suffix for columns from this common name merge
-    ).set_index('index') # Reset index to align with original df for update
-
-    # Update missing 'English (IOC)' and 'Scientific (IOC)' from common name merge results
-    df.loc[temp_df_common_name_merge.index, 'English (IOC)'] = df['English (IOC)'].combine_first(temp_df_common_name_merge['English (IOC)_common'])
-    df.loc[temp_df_common_name_merge.index, 'Scientific (IOC)'] = df['Scientific (IOC)'].combine_first(temp_df_common_name_merge['Scientific (IOC)_common'])
-    
     return df
 
 def get_base_data():
@@ -88,15 +54,14 @@ def get_base_data():
     })
     df['EBIRD'] = 'https://ebird.org/species/' + df['SPECIES_CODE']
     
-    # First try direct IOC matches
-    df = match_ioc(df)
-    
-    # Then fill gaps with Clements-IOC mappings
-    df = map_clements_ioc(df)
-    
-    print(f"IOC names found: {df['English (IOC)'].count()}/{len(df)}")
+    # Find matches between Clements and AviList using scientific and common names
+    df = find_matches_on_names(df)
+
+    print(f"AviList names found: {df['English (AviList)'].count()}/{len(df)}")
+
+    df = df[['English (Clements)', 'Scientific (Clements)', 'EBIRD', 'TAXON_ORDER', 
+               'ORDER', 'FAMILY', 'TAXON_CONCEPT_ID', 'English (AviList)', 'Scientific (AviList)']]
 
     df.to_csv(OUTPUT_FILES['base_data'], index=False)
     
-    return df[['English (Clements)', 'Scientific (Clements)', 'EBIRD', 'TAXON_ORDER', 
-               'ORDER', 'FAMILY', 'English (IOC)', 'Scientific (IOC)']]
+    return df
