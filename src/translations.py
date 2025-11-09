@@ -2,7 +2,13 @@ import pandas as pd
 from file_paths import INPUT_FILES, PROCESSED_FILES
 from string import capwords
 
-LANGUAGES = ['Afrikaans', 'Albanian', 'Arabic', 'Armenian', 'Azerbaijani', 'Belarusian', 'Bengali', 'Bulgarian', 'Catalan', 'Chinese', 'Chinese (Traditional)', 'Croatian', 'Czech', 'Danish', 'Dutch', 'Estonian', 'Faroese', 'Finnish', 'French', 'Galician', 'Georgian', 'German', 'Greek', 'Hebrew', 'Hungarian', 'Icelandic', 'Indonesian', 'Italian', 'Japanese', 'Kazakh', 'Korean', 'Latvian', 'Lithuanian', 'Macedonian', 'Marathi', 'Malay', 'Maltese', 'Mongolian', 'Nepali', 'Norwegian', 'Persian', 'Polish', 'Portuguese', 'Romanian', 'Russian', 'Serbian', 'Slovak', 'Slovenian', 'Spanish', 'Swahili', 'Swedish', 'Tajik', 'Thai', 'Turkish', 'Ukrainian', 'Uzbek', 'Vietnamese']
+LANGUAGE_RENAME_MAP = {
+    'Chinese, Simple': 'Chinese',
+    'Chinese - Mandarin (trad)': 'Chinese (Traditional)',
+    'Portuguese, Portugal': 'Portuguese',
+    'Nepali (Nepal)': 'Nepali'
+}
+LANGUAGES_ALL = ['Afrikaans', 'Albanian', 'Arabic', 'Armenian', 'Azerbaijani', 'Belarusian', 'Bengali', 'Bulgarian', 'Catalan', 'Chinese', 'Chinese (Traditional)', 'Croatian', 'Czech', 'Danish', 'Dutch', 'Estonian', 'Faroese', 'Finnish', 'French', 'Galician', 'Georgian', 'German', 'Greek', 'Hebrew', 'Hungarian', 'Icelandic', 'Indonesian', 'Italian', 'Japanese', 'Kazakh', 'Korean', 'Latvian', 'Lithuanian', 'Macedonian', 'Marathi', 'Malay', 'Maltese', 'Mongolian', 'Nepali', 'Norwegian', 'Persian', 'Polish', 'Portuguese', 'Romanian', 'Russian', 'Serbian', 'Slovak', 'Slovenian', 'Spanish', 'Swahili', 'Swedish', 'Tajik', 'Thai', 'Turkish', 'Ukrainian', 'Uzbek', 'Vietnamese']
 
 def merge_ebird_translations(df):
     """
@@ -12,13 +18,12 @@ def merge_ebird_translations(df):
     df_common_names['bio_concept_code'] = df_common_names['bio_concept_code'].str.replace('avibase-avibase', 'avibase', regex=False)
 
     df = pd.merge(df, df_common_names, left_on='TAXON_CONCEPT_ID', right_on='bio_concept_code', how="left", suffixes=["", "_translations"])
-    
-    temp_df = pd.merge(df, df_common_names, left_on='Scientific (Clements)', right_on='scientific_name', how="left", suffixes=["", "_sci"])
-    
-    
-    
+    # Update missing English (AviList) names from translations file (this file is using taxonomy from last year, so prefer existing)
     df['English (AviList)'] = df['English (AviList)'].combine_first(df['English (AviList)_translations'])
 
+    # Rename languages
+    df = df.rename(columns=LANGUAGE_RENAME_MAP)
+    
     return df
 
 
@@ -33,7 +38,7 @@ def merge_old_translations(df):
     merged_df = pd.merge(df, df_old, left_on='English (Clements)', right_on='PRIMARY_COM_NAME', how="left", suffixes=["", "_old"])
     
     # Update missing values for each specified language column from CSV merge.
-    for col in LANGUAGES:
+    for col in LANGUAGES_ALL:
         csv_col = f"{col}_old"
         if col in merged_df.columns and csv_col in merged_df.columns:
             merged_df[col] = merged_df[col].fillna(merged_df[csv_col])
@@ -41,7 +46,7 @@ def merge_old_translations(df):
     # Merge on Scientific name to pick up any remaining missing translations.
     merged_df = pd.merge(merged_df, df_old, left_on='Scientific (Clements)', right_on='SCI_NAME', how="left", suffixes=["", "_old_2"])
     
-    for col in LANGUAGES:
+    for col in LANGUAGES_ALL:
         csv_col_2 = f"{col}_old_2"
         if col in merged_df.columns and csv_col_2 in merged_df.columns:
             merged_df[col] = merged_df[col].fillna(merged_df[csv_col_2])
@@ -89,15 +94,15 @@ def merge_translations(base_df):
     df_merged = merge_ebird_translations(df)
 
     # # Merge additional translations from an older version.
-    # df_merged = merge_old_translations(df_merged)
+    df_merged = merge_old_translations(df_merged)
 
-    # df_merged = overwrite_danish_translations(df_merged)
+    df_merged = overwrite_danish_translations(df_merged)
 
     # # Titlelize translations if it the first letter is not capitalized.
-    # for col in LANGUAGES:
-    #     df_merged[col] = df_merged[col].apply(lambda x: capwords(x) if not pd.isna(x) and x[0].islower() else x)
+    for col in LANGUAGES_ALL:
+        df_merged[col] = df_merged[col].apply(lambda x: capwords(x) if not pd.isna(x) and x[0].islower() else x)
 
-    # final_columns = ['Scientific (Clements)'] + LANGUAGES
-    # df_merged = df_merged.reindex(columns=final_columns)
+    final_columns = ['Scientific (Clements)'] + LANGUAGES_ALL
+    df_merged = df_merged.reindex(columns=final_columns)
     
     df_merged.to_csv(PROCESSED_FILES["translations"], index=False, encoding="utf-8")
