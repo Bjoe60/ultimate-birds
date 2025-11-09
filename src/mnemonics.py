@@ -6,6 +6,7 @@ def process_mnemonics(df):
     """
     print('-------- Getting mnemonics --------')
     df = df[['English (Clements)', 'Scientific (Clements)']].copy()
+    df['MNEMONIC'] = ''
 
     with open(INPUT_FILES['mnemonics']) as f:
         birds = f.read().split('\n\n')
