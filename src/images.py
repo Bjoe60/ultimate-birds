@@ -15,6 +15,7 @@ def scrape_images_for_species(df, idx):
     
     response = fetch_url(url)
     if not response:
+        print(f"Failed to fetch page for URL: {url}. Skipping.")
         return
 
     soup = BeautifulSoup(response.content, "html.parser")
@@ -83,9 +84,11 @@ def scrape_images(base_df):
     """
     print("-------- Scraping Images --------")
     df = base_df[['Scientific (Clements)', 'EBIRD']].copy()
+    df['IMAGES'] = ''
+    df['DESC'] = ''
 
     # Process each species one at a time to avoid overloading the site.
-    for idx in tqdm(df.index, desc="Scraping images")[:10]:
+    for idx in tqdm(df.index, desc="Scraping images"):
         scrape_images_for_species(df, idx)
 
     df.drop(columns=['EBIRD'], inplace=True)

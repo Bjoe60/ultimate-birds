@@ -22,10 +22,16 @@ XPATH = '/html/body/div[1]/div[4]/div/div[5]/table/tr[{}]/td[1]/a[2]'
 
 def initialize_webdriver():
     """Initialize and return a Selenium WebDriver instance."""
-    service = Service()
     options = webdriver.ChromeOptions()
+    
+    # Optional: Run in headless mode (no GUI) for better performance on servers
+    # options.add_argument("--headless=new") 
+    
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    driver = webdriver.Chrome(service=service, options=options)
+    
+    # No 'service=' argument needed! 
+    # Selenium Manager will find Google Chrome and download the driver automatically.
+    driver = webdriver.Chrome(options=options)
     return driver
 
 def fetch_country_regions(driver, country_name):
@@ -170,12 +176,20 @@ def scrape_avibase_data(df_base):
         WebDriverWait(main_driver, 10).until(
             EC.presence_of_element_located((By.CLASS_NAME, 'reg3'))
         )
-        country_links = BeautifulSoup(main_driver.page_source, 'lxml').find_all('tr', class_='reg3')
+        country_rows = BeautifulSoup(main_driver.page_source, 'lxml').find_all('tr', class_='reg3')
+
+        # Build list of <a> tags for countries
+        country_links = [tr.td.a for tr in country_rows]
+
+        # Add Western Palearctic as an extra "country"
+        wpa_tag = BeautifulSoup('<a href="checklist.jsp?region=WPA&lang=EN" class="regionlnk">Western Palearctic</a>','lxml').a
+        country_links.append(wpa_tag)
+    
     finally:
         main_driver.quit()
 
-    for link in tqdm(country_links[:1], desc="Processing countries"):
-        process_country(df, link.td.a)
+    for link in tqdm(country_links, desc="Processing countries"):
+        process_country(df, link)
     
     # Save final data
     df = df.drop(columns=['English (Clements)'])

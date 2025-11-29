@@ -5,40 +5,8 @@ def create_anki_audio(aud_type, credit, file, spectrogram):
     aud_type = '' if pd.isna(aud_type) else aud_type.replace('?', '')
     return f'<div class="aud-w-txt"><div class="aud-type">{aud_type}</div><div class="aud-credit">© {credit}</div><audio controls="" controlslist="nodownload noplaybackrate"><source src="{file}" type="audio/mpeg"></audio><img src="{spectrogram}"></div>'
 
-def merge_old_audio(df):
-    """
-    Merge old audio data from the Ultimate Birds - old version.csv file.
-    """
-    print('-------- Merging old audio --------')
-    df_old = pd.read_csv(INPUT_FILES['old_version'], usecols=['SCI_NAME', 'PRIMARY_COM_NAME', 'English (IOC)', 'SOUNDS'], dtype=str)
-    df_old = df_old.rename(columns={'SCI_NAME': 'Scientific (Clements)', 'PRIMARY_COM_NAME': 'English (Clements)', 'English (IOC)': 'English (AviList)'})
-    df_old['SOUNDS'] = df_old['SOUNDS'].replace('', pd.NA)
-
-    # If audio is empty for a species, use the old version
-    # Try merge on Scientific names first
-    df = pd.merge(df, df_old, on='Scientific (Clements)', how='left', suffixes=('', '_old'))
-    df['SOUNDS'] = df.apply(
-        lambda row: row['SOUNDS'] if pd.notna(row['SOUNDS']) else row['SOUNDS_old'] if pd.notna(row['SOUNDS_old']) else pd.NA,
-        axis=1
-    )
-    df = df.drop(columns=['SOUNDS_old'])
-
-    # Then try merge on English names for those still missing audio
-    temp_df = pd.merge(
-        df,
-        df_old,
-        on='English (AviList)',
-        how='left',
-        suffixes=('', '_old2')
-    )
-
-    df['SOUNDS'] = df['SOUNDS'].combine_first(temp_df['SOUNDS_old2'])
-
-    return df
-
-
 def get_audio(base_df):
-    print('-------- Scraping audio --------')
+    print('-------- Getting audio --------')
     df = base_df[['Scientific (Clements)', 'English (Clements)', 'Scientific (AviList)', 'English (AviList)']].copy()
     df['SOUNDS'] = pd.NA
 
@@ -52,7 +20,7 @@ def get_audio(base_df):
 
     # Merge audio data on occurrence ID
     merged_audio = pd.merge(media_df, occurrence_df, left_on='associatedObservationReference', right_on='occurrenceID', how='inner')
-    print(f'Found {len(merged_audio)} audio files')
+    print(f'Found {merged_audio["associatedObservationReference"].nunique()} audio files')
 
     # Replace subspecies with species name
     merged_audio['scientificName'] = merged_audio['scientificName'].str.split(' ').str[:2].str.join(' ')
@@ -133,8 +101,6 @@ def get_audio(base_df):
     # Apply the per-species processing (this is still row-by-row but each lookup is fast).
     df['SOUNDS'] = df.apply(process_species_audio, axis=1)
     df['SOUNDS'] = df['SOUNDS'].replace('', pd.NA)
-
-    df = merge_old_audio(df)
 
     print(f'Found audio for {df["SOUNDS"].count()} species')
 
