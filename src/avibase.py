@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 import numpy as np
-from file_paths import PROCESSED_FILES
+from file_paths import INPUT_FILES, PROCESSED_FILES
 from utils import fetch_url
 from tqdm import tqdm
 
@@ -156,6 +156,27 @@ def process_country(df, a_tag):
     except Exception as e:
         print(f"Error processing {country_name}: {str(e)}")
 
+def remove_extra_denmark_tags(df):
+    """
+    Remove tags for Denmark if not present in Dofbasen
+    """
+    df_dofbasen = pd.read_csv(INPUT_FILES['danish_translations_dofbasen'], dtype="str", usecols=["Latin"], sep=";", encoding='ISO-8859-1')
+    danish_species = set(df_dofbasen['Latin'].tolist())
+    def clean_tags(row):
+        tags = row['TAGS']
+        if pd.isna(tags):
+            return tags
+        tag_list = tags.split(' ')
+        cleaned_tags = []
+        for tag in tag_list:
+            if tag.startswith('UB::Denmark::'):
+                if not pd.isna(row['Scientific (AviList)']) and row['Scientific (AviList)'] in danish_species:
+                    cleaned_tags.append(tag)
+            else:
+                cleaned_tags.append(tag)
+        return ' '.join(cleaned_tags).strip()
+    df['TAGS'] = df.apply(clean_tags, axis=1)
+    return df
 
 def scrape_avibase_data(df_base):
     """
@@ -163,7 +184,8 @@ def scrape_avibase_data(df_base):
     Avibase uses Clements taxonomy.
     """
     print('-------- Starting Avibase scraping --------')
-    df = df_base[['Scientific (Clements)', 'English (Clements)']].copy()
+    df = df_base[['Scientific (Clements)', 'English (Clements)', 'Scientific (AviList)']].copy()
+    print(f"AviList names total found: {df['Scientific (AviList)'].count()}/{len(df)}")
     df['TAGS'] = ''
     for col in ['AVIBASE', 'CONS_STATUS']:
         df[col] = pd.NA
@@ -190,6 +212,8 @@ def scrape_avibase_data(df_base):
 
     for link in tqdm(country_links, desc="Processing countries"):
         process_country(df, link)
+
+    df = remove_extra_denmark_tags(df)
     
     # Save final data
     df = df.drop(columns=['English (Clements)'])

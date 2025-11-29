@@ -93,12 +93,12 @@ def merge_translations(base_df):
     # Merge Excel translations.
     df_merged = merge_ebird_translations(df)
 
-    # # Merge additional translations from an older version.
+    # Merge additional translations from an older version.
     df_merged = merge_old_translations(df_merged)
 
     df_merged = overwrite_danish_translations(df_merged)
 
-    # # Titlelize translations if it the first letter is not capitalized.
+    # Titlelize translations if the first letter is not capitalized.
     for col in LANGUAGES_ALL:
         df_merged[col] = df_merged[col].apply(lambda x: capwords(x) if not pd.isna(x) and x[0].islower() else x)
 

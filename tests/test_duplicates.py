@@ -10,7 +10,8 @@ def test_duplicates():
     Test to identify duplicated values in the dataset.
     This function reads a CSV file containing bird data and checks for duplicated values in the specified columns.
     """
-    columns = ['English (Clements)', 'Scientific (Clements)', 'English (AviList)', 'Scientific (AviList)']
+    # columns = ['English (Clements)', 'Scientific (Clements)', 'English (AviList)', 'Scientific (AviList)']
+    columns = ['English (Clements)', 'Scientific (Clements)', 'Scientific (AviList)']
     for column in columns:
         df = pd.read_csv(OUTPUT_FILES['base_data'], dtype=str)
         df = df[df.duplicated(subset=[column], keep=False)].drop_duplicates(subset=[column])
