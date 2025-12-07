@@ -118,7 +118,7 @@ def combine_data(df, version_tag):
     df = df[~(df['Images'].isna() & df['Sounds'].isna())]
 
     # Add version tag
-    df['Tags'] = df['Tags'] + f'UB::{version_tag}'
+    df['Tags'] = df['Tags'] + f' UB::{version_tag}'
 
     # Save the data as CSV with and without file header
     df.to_csv(OUTPUT_FILES['output_header'], index=False)
