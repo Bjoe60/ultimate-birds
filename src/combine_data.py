@@ -67,6 +67,8 @@ def update_notes(df, notes_file):
         if matched_id:
             unique_ids.append(matched_id)
             rows_to_keep.append(idx)
+        else:
+            print(f"Warning: No match found for species '{current_english}' / '{current_scientific}' with eBird URL '{current_ebird}'")
     
     # Filter the df to keep only matched rows and add the unique ID column
     df = df.loc[rows_to_keep].copy()
