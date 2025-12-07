@@ -100,7 +100,9 @@ def merge_translations(base_df):
 
     # Titlelize translations if the first letter is not capitalized.
     for col in LANGUAGES_ALL:
-        df_merged[col] = df_merged[col].apply(lambda x: capwords(x) if not pd.isna(x) and x[0].islower() else x)
+        df_merged[col] = df_merged[col].apply(
+            lambda x: capwords(x.strip('"')) if not pd.isna(x) and x.strip('"')[0].islower() else x.strip('"') if not pd.isna(x) else x
+        )
 
     final_columns = ['Scientific (Clements)'] + LANGUAGES_ALL
     df_merged = df_merged.reindex(columns=final_columns)
