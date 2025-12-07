@@ -156,12 +156,10 @@ def process_country(df, a_tag):
     except Exception as e:
         print(f"Error processing {country_name}: {str(e)}")
 
-def remove_extra_denmark_tags(df):
+def remove_extra_denmark_tags(df, danish_species):
     """
     Remove tags for Denmark if not present in Dofbasen
     """
-    df_dofbasen = pd.read_csv(INPUT_FILES['danish_translations_dofbasen'], dtype="str", usecols=["Latin"], sep=";", encoding='ISO-8859-1')
-    danish_species = set(df_dofbasen['Latin'].tolist())
     def clean_tags(row):
         tags = row['TAGS']
         if pd.isna(tags):
@@ -169,13 +167,36 @@ def remove_extra_denmark_tags(df):
         tag_list = tags.split(' ')
         cleaned_tags = []
         for tag in tag_list:
-            if tag.startswith('UB::Denmark::'):
+            if tag.startswith('UB::Denmark'):
                 if not pd.isna(row['Scientific (AviList)']) and row['Scientific (AviList)'] in danish_species:
                     cleaned_tags.append(tag)
             else:
                 cleaned_tags.append(tag)
         return ' '.join(cleaned_tags).strip()
     df['TAGS'] = df.apply(clean_tags, axis=1)
+    return df
+
+def add_extra_denmark_tags(df, danish_species):
+    """
+    Add tags for Denmark if present in Dofbasen but missing in the tags list
+    """
+
+    def add_tags(row):
+        tags = row['TAGS']
+        if pd.isna(tags):
+            tags = ''
+        tag_list = tags.split(' ')
+        if pd.isna(row['Scientific (AviList)']) or row['Scientific (AviList)'] not in danish_species:
+            return tags.strip()
+        has_denmark_tag = any(tag.startswith('UB::Denmark') for tag in tag_list)
+        
+        if not has_denmark_tag and row['Scientific (AviList)'] in danish_species:
+            # print(f"Adding Denmark tag for species: {row['English (Clements)']} / {row['Scientific (AviList)']}")
+            tags += ' UB::Denmark::Rare/Accidental'
+        return tags.strip()
+    
+    df['TAGS'] = df.apply(add_tags, axis=1)
+    
     return df
 
 def scrape_avibase_data(df_base):
@@ -213,7 +234,11 @@ def scrape_avibase_data(df_base):
     for link in tqdm(country_links, desc="Processing countries"):
         process_country(df, link)
 
-    df = remove_extra_denmark_tags(df)
+    df_dofbasen = pd.read_csv(INPUT_FILES['danish_translations_dofbasen'], dtype="str", usecols=["Latin"], sep=";", encoding='ISO-8859-1')
+    danish_species = set(df_dofbasen['Latin'].tolist())
+
+    df = remove_extra_denmark_tags(df, danish_species)
+    df = add_extra_denmark_tags(df, danish_species)
     
     # Save final data
     df = df.drop(columns=['English (Clements)'])
