@@ -1,0 +1,91 @@
+<br/><br/>
+<div class="title">
+	<b>{{Danish}}
+
+	<!-- If there is no translation, English name is shown: -->
+	{{^Danish}}{{English}}{{/Danish}}
+</b></div>
+<br/><br/>
+
+{{#Mnemonics}}
+	<hr>
+
+	<b>Mnemonics</b><br/>
+	<div class="mnemonics"><i>{{Mnemonics}}</i></div>
+{{/Mnemonics}}
+
+{{#Identification}}
+	<hr>
+
+	<b>Identification</b>
+	<div class="small-txt">{{Identification}}</div>
+
+{{/Identification}}
+<hr>
+
+<table>
+	<tr>
+		<td><b>English name:</b></td>
+		<td>{{English}}</td>
+	</tr>
+	{{#Conservation status}}
+		<tr>
+			<td><b>Cons. status:</b></td>
+			<td>{{Conservation status}}</td>
+		</tr>
+	{{/Conservation status}}
+</table>
+
+<hr>
+
+<table>
+	<tr>
+		<td><b>Order:</b></td>
+		<td>{{Order}}</td>
+	</tr>
+	<tr>
+		<td><b>Family:</b></td>
+		<td>{{Family}}</td>
+	</tr>
+	<tr>
+		<td><b>Species:</b></td>
+		<td>{{Scientific}}</td>
+	</tr>
+</table>
+
+{{#Images}}
+	<hr>
+
+	<b>Images</b><br/>
+	<div class="back wrapper img-wrapper">
+		{{Images}}
+	</div>
+{{/Images}}
+
+<hr>
+
+<b>Sounds</b><br/>
+<div class="back aud-list"><a class="hidden-a" href="#">
+	{{Sounds}}
+</a></div>
+
+<b>Reference information:</b><br/>
+ ・<a href="{{eBird URL}}">eBird</a><br/>
+ ・<a href="{{Avibase URL}}">Avibase</a><br/>
+ ・<a href="https://xeno-canto.org/explore?query={{English}}">Xeno-canto query</a>
+
+<script>
+// When an audio is played, all other are paused
+if (!window.pauseAudioListenerAdded) {
+	document.addEventListener('play', function(e) {
+		var audios = document.querySelectorAll('audio');
+
+		for (var i = 0, len = audios.length; i < len; i++) {
+			if (audios[i] != e.target) {
+				audios[i].pause();
+			}
+		}
+	}, true);
+  window.pauseAudioListenerAdded = true;
+}
+</script>

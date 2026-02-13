@@ -1,0 +1,54 @@
+{{#Images}}
+<div id="front-img" class="container image"></div>
+<div class="container btn-container">
+	<button id="btn" onclick="next_img()">
+		<a class="reroll hidden-a" href="#"><b> ↻ </b></a>
+	</button>
+</div>
+<div id="img-data" style="display: none">{{Images}}</div>
+<div id="console"></div> 
+
+<script type="text/javascript">
+var images = document.querySelector('#img-data').children;
+var randomIdx = Math.floor(Math.random() * images.length);
+var append = "";
+
+if (images.length <= 1) {
+	document.querySelector('#btn').style.display = "none";
+}
+
+function next_img() {
+	randomIdx = (randomIdx + 1) % images.length;
+	show_img();
+	append += "\nhey";
+	//print(randomIdx+append);
+}
+
+function show_img() {
+	document.querySelector('#front-img').innerHTML = images[randomIdx].outerHTML;
+}
+
+function print(txt) {
+	document.querySelector('#console').innerHTML = txt;
+}
+
+show_img();
+
+// Adds eventlistener on first card only
+if (!window.imageListenerAdded) {
+	document.addEventListener('keyup', 	function on_click(event) {
+		var frontImg = document.querySelector('#front-img');
+
+		// Only use shortcut on this card type
+		if (frontImg) {
+			var key = event.key || event.keyCode;
+	
+			if (key === 'n' || key === 'N') {
+				next_img();
+			}
+		}
+	});
+	window.imageListenerAdded = true;
+}
+</script>
+{{/Images}}

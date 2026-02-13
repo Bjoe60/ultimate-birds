@@ -1,0 +1,175 @@
+.card {
+	font-family: arial;
+	font-size: 20px;
+	color: black;
+	background-color: white;
+	text-align: left;
+}
+
+.reroll {
+	font-size: 20px;
+}
+
+.mobile .reroll {
+	font-size: 32px;
+}
+
+.container {
+	text-align: center;
+}
+
+.win .btn-container,
+.mac .btn-container,
+.linux .btn-container {
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+}
+
+.android .btn-container {
+	bottom: 35%;
+}
+
+.iphone .btn-container,
+.ipad .btn-container {
+	margin-top: 100px;
+}
+
+#front-img .img-w-txt img {
+	max-width: 100%;
+	max-height: 78vh;
+	display: block;
+	margin-top: 5px;
+}
+
+.aud-w-txt {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.back .aud-w-txt {
+	border-bottom: solid;
+	border-width: 1px;
+	margin-bottom: 12px;
+}
+
+audio {
+	margin-top: 4px;
+}
+
+.type {
+	text-align: center;
+	width: 0;
+	min-width: 100%;
+	min-height: 20pt;
+}
+
+.aud-type {
+	text-align: center;
+	max-width: 300px;
+	margin-top: 6px;
+	display: flex;
+	align-items: flex-end;
+}
+
+#front-aud .aud-type {
+	min-height: 40pt;
+}
+
+.credit {
+	text-align: right;
+}
+
+.back .credit {
+	max-width: 333px;
+}
+
+.credit,
+.aud-credit {
+	color: gray;
+	font-size: 8px;
+}
+
+.aud-credit {
+	max-width: 180px;
+	text-align: center;
+	margin-top: 1px;
+}
+
+.img-w-txt {
+	display: inline-block;
+}
+
+.back .img-w-txt img {
+	max-height: 250px;
+	max-width: 100%;
+	display: block;
+}
+
+.back .aud-credit {
+	max-width: 333px;
+}
+
+a {
+  color: lightblue;
+}
+
+.aud-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.aud-w-txt img {
+	min-width: 200px;
+	width: 50%;
+	margin: 6px 0px 20px 0px;
+}
+
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.wrapper > div {
+	margin: 10px;
+}
+
+.wrapper > .img-w-txt {
+	margin-top: auto;
+}
+
+.img-wrapper {
+	margin-top: 10px;
+}
+
+.title {
+	font-size: 40px;
+	text-align: center;
+}
+
+.mnemonics {
+	text-align: center;
+}
+
+.small-txt {
+	font-size: 16px;
+	margin-top: 2px;
+}
+
+.hidden-a {
+	color: inherit !important;
+	cursor: inherit;
+	text-decoration: inherit;
+	-webkit-tap-highlight-color: transparent;
+	width: 100%;
+}
+/*
+.win .hidden-a,
+.mac .hidden-a,
+.linux:not(.mobile) .hidden-a {
+	display: contents;
+}*/

@@ -1,0 +1,60 @@
+{{#Sounds}}
+
+<br/><br/>
+<a class="hidden-a" href="#">
+	<div id="front-aud" class="container"></div>
+</a>
+<div class="container btn-container">
+	<button id="btn" onclick="next_sound()">
+		<a class="reroll hidden-a" href="#"><b> ↻ </b></a>
+	</button>
+</div>
+<div id="sound-data" style="display: none">{{Sounds}}</div>
+
+
+<script type="text/javascript">
+var elements = document.querySelector('#sound-data').children;
+var randomIdx = Math.floor(Math.random() * elements.length);
+
+if (elements.length <= 1) {
+	document.querySelector('#btn').style.display = "none";
+}
+
+function next_sound() {
+	randomIdx = (randomIdx + 1) % elements.length;
+	play_sound();
+}
+
+function play_sound() {
+	// Hide sonogram
+	elements[randomIdx].querySelector('img').style.display = 'none';
+
+	document.querySelector('#front-aud').innerHTML = elements[randomIdx].outerHTML;
+	document.querySelector('#front-aud').querySelector('audio').play();
+}
+
+play_sound();
+
+// Adds eventlistener on first card only
+if (!window.audioListenerAdded) {
+	document.addEventListener('keyup', function(event) {
+		var frontAud = document.querySelector('#front-aud');
+
+		// Only use shortcut on this card type
+		if (frontAud) {
+			var key = event.key || event.keyCode;
+			var selectedAudio = frontAud.querySelector('audio');
+
+			if (key === 'r' || key === 'R') {
+				selectedAudio.pause();
+				selectedAudio.currentTime = 0;
+				selectedAudio.play();
+			} else if (key === 'n' || key === 'N') {
+				next_sound();
+			}
+		}
+	});
+	window.audioListenerAdded = true;
+}
+</script>
+{{/Sounds}}
