@@ -45,14 +45,17 @@
 
 .aud-w-txt {
 	display: flex;
+	width: 100%;
 	flex-direction: column;
 	align-items: center;
 }
 
 .back .aud-w-txt {
+	width: 100%;
 	border-bottom: solid;
 	border-width: 1px;
-	margin-bottom: 12px;
+	margin-bottom: 22px;
+	border-color: #737373;
 }
 
 audio {
@@ -112,10 +115,6 @@ audio {
 	max-width: 333px;
 }
 
-a {
-  color: lightblue;
-}
-
 .aud-list {
 	display: flex;
 	flex-direction: column;
@@ -124,8 +123,9 @@ a {
 
 .aud-w-txt img {
 	min-width: 200px;
-	width: 50%;
-	margin: 6px 0px 20px 0px;
+	max-height: 320px;
+	max-width: 100%;
+	margin: 12px 0px 40px 0px;
 }
 
 .wrapper {
@@ -160,16 +160,6 @@ a {
 	margin-top: 2px;
 }
 
-.hidden-a {
-	color: inherit !important;
-	cursor: inherit;
-	text-decoration: inherit;
-	-webkit-tap-highlight-color: transparent;
-	width: 100%;
+.nightMode a {
+  color: lightskyblue;
 }
-/*
-.win .hidden-a,
-.mac .hidden-a,
-.linux:not(.mobile) .hidden-a {
-	display: contents;
-}*/

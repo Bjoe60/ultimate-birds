@@ -1,8 +1,8 @@
 {{#Images}}
 <div id="front-img" class="container image"></div>
 <div class="container btn-container">
-	<button id="btn" onclick="next_img()">
-		<a class="reroll hidden-a" href="#"><b> ↻ </b></a>
+	<button class="reroll" id="btn" onclick="next_img()">
+		<b> ↻ </b>
 	</button>
 </div>
 <div id="img-data" style="display: none">{{Images}}</div>
@@ -11,7 +11,6 @@
 <script type="text/javascript">
 var images = document.querySelector('#img-data').children;
 var randomIdx = Math.floor(Math.random() * images.length);
-var append = "";
 
 if (images.length <= 1) {
 	document.querySelector('#btn').style.display = "none";
@@ -20,8 +19,6 @@ if (images.length <= 1) {
 function next_img() {
 	randomIdx = (randomIdx + 1) % images.length;
 	show_img();
-	append += "\nhey";
-	//print(randomIdx+append);
 }
 
 function show_img() {
